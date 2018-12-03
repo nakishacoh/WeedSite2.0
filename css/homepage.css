@@ -5,6 +5,10 @@ body{
   top:0;
   bottom:0;
 }
+.cont{
+  position:relative;
+  text-align: center;
+}
 .img{
   margin:0;
   border: none;
@@ -14,9 +18,28 @@ body{
   height:100%;
   overflow: auto;
   bottom:0;
-
   }
 #surveyB{
+  width:15%;
+  height:auto;
   position:absolute;
-  margin-left: 6%;
+  bottom: 500px;
+  left:115px;
   }
+#learnB{
+  width:15%;
+  height:auto;
+  position:absolute;
+  bottom:600px;
+  left: 40%;
+  }
+#checkUs{
+  width:15%;
+  height:auto;
+  position:absolute;
+  bottom:400px;
+  left: 42%;
+}
+*{
+   box-sizing: border-box;
+}
