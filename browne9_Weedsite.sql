@@ -2,10 +2,10 @@
 -- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Nov 28, 2018 at 04:18 PM
--- Server version: 5.5.61-cll
--- PHP Version: 7.2.7
+-- Host: localhost
+-- Generation Time: Dec 03, 2018 at 07:18 PM
+-- Server version: 10.1.36-MariaDB
+-- PHP Version: 5.6.38
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -33,6 +33,17 @@ CREATE TABLE `Strains` (
   `image` varchar(100) NOT NULL,
   `description` varchar(500) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Strains-Users`
+--
+
+CREATE TABLE `Strains-Users` (
+  `strainsid` int(11) NOT NULL,
+  `usersid` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -95,7 +106,7 @@ CREATE TABLE `Users` (
 -- Indexes for table `Strains`
 --
 ALTER TABLE `Strains`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`strainsid`);
 
 --
 -- Indexes for table `Survey1`
@@ -113,7 +124,7 @@ ALTER TABLE `Survey2`
 -- Indexes for table `Users`
 --
 ALTER TABLE `Users`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`usersid`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -123,7 +134,7 @@ ALTER TABLE `Users`
 -- AUTO_INCREMENT for table `Strains`
 --
 ALTER TABLE `Strains`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `strainsid` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `Survey1`
@@ -141,7 +152,7 @@ ALTER TABLE `Survey2`
 -- AUTO_INCREMENT for table `Users`
 --
 ALTER TABLE `Users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `usersid` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
