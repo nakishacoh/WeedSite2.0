@@ -14,11 +14,18 @@ $dsn = "mysql:host=localhost;dbname=browne9_Weedsite;charset=utf8mb4";
   $stmt->execute();
 
 $idVal=1;
+?>
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<?php
 while($row = $stmt->fetch()) {
-        ?><div id="<?=$idVal;?>" class="question">
+        ?><div id="q<?=$idVal;?>" class="question">
         <h2><?echo($idVal)?>/6</h2>
         <h1>Q<?echo($idVal)?>:</h1><p> <?php echo($row["questions"]); ?></p>
 <?php
+
 if ($idVal == 1)
 {
   ?>
@@ -85,8 +92,72 @@ if ($idVal == 1)
         <p><?php //echo($row["Answer F"]); ?></p> -->
 <!---->
       </div>
+
+
         <?php
         $idVal++;
          }
 
 ?>
+<br><br>
+<button id="Prev">Prev</button>
+<button id="Next">Next</button>
+<script>
+
+var currentQ = 1;
+//make a button with addEventListener
+//make an object that will store the user's previous answers.
+
+var next = document.getElementById("Next");
+var prev = document.getElementById("Prev");
+
+next.addEventListener("click",nNext,false);
+prev.addEventListener("click",pPrev,false);
+
+var qs = document.getElementsByTagName("div");
+
+
+ for (var i=0; i<qs.length; i++){
+   qs[i].style.display="none";
+ }
+
+
+
+   document.getElementById("q"+currentQ).style.display="block";
+
+function nNext(){
+  if(currentQ < 6){
+    console.log("Next");
+    currentQ  = currentQ + 1;
+    for (var i=0; i<qs.length; i++){
+      qs[i].style.display="none";
+    }
+    document.getElementById("q"+currentQ).style.display="block";
+
+  }
+  else{
+    currentQ = 6;
+  }
+
+
+
+}
+function pPrev(){
+if (currentQ >1){
+  currentQ = currentQ - 1;
+  for (var i=0; i<qs.length; i++){
+    qs[i].style.display="none";
+  }
+  document.getElementById("q"+currentQ).style.display="block";
+}
+  else {
+    currentQ = 1;
+  }
+}
+
+
+
+</script>
+</body>
+</html>
+<?php ?>
