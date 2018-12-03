@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `Strains` (
-  `id` int(11) NOT NULL,
+  `strainsid` int(11) NOT NULL,
   `image` varchar(100) NOT NULL,
   `description` varchar(500) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -81,7 +81,7 @@ CREATE TABLE `Survey2` (
 --
 
 CREATE TABLE `Users` (
-  `id` int(11) NOT NULL,
+  `usersid` int(11) NOT NULL,
   `email` varchar(30) NOT NULL,
   `password` varchar(30) NOT NULL,
   `role` int(11) NOT NULL
