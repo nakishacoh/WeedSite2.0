@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="css/homepage.css" />
@@ -15,32 +15,36 @@
         <li><a href="">User Account</a></li>
       </ul>
   </nav>
-  </header>
+  </header> -->
+
+  <?php
+    include('header.php')
+  ?>
 
   <div>
     <!--Survey-->
-  <div class="cont">
-      <img src="images/image_1.png" class="img"/>
-      <a href="#"><img id="surveyB" src="buttons/take_survey.png"></a>
-  </div>
-    <!--Site Explanation-->
-  <div class="cont">
-    <img src="images/image_4.png" class="img"/>
-  </div>
-  <!--Cannibis Info -->
-  <div class="cont">
-    <img src="images/image_2.png" class="img"/>
-    <a href="#"><img id="learnB" src="buttons/learn_more.png"></a>
-  </div>
-  <!-- About Us -->
-  <div class="cont">
-  <img src="images/image_3.png" class="img"/>
-  <a href="#"><img id="checkUs" src="buttons/check_us_out.png"></a>
-</div>
 
-</div>
+      <img src="images/image_1.png" class="img"/>
+
+  <!--Site Explanation-->
+
+    <img src="images/image_4.png" class="img"/>
+
+
+  <!--Cannibis Info -->
+
+    <img src="images/image_2.png" class="img"/>
+
+  <img src="images/image_3.png" class="img"/>
+  </div>
+
+  <?php
+    include('footer.php')
+  ?>
+
+<!--
   <footer>
 
   </footer>
 </body>
-</html>
+</html> -->
