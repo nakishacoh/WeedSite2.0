@@ -29,19 +29,19 @@ while($row = $stmt->fetch()) {
 if ($idVal == 1)
 {
   ?>
-<input type="image" id="bt1" src="images/take_survey.png">
-<input type="image" id="bt2" src="images/take_survey.png">
-<input type="image" id="bt3" src="images/take_survey.png">
+<input type="image" id="bt1" src="images/take_survey.png" value="beginner">
+<input type="image" id="bt2" src="images/take_survey.png" value="intermediate">
+<input type="image" id="bt3" src="images/take_survey.png" value="expert">
 <?php
 }elseif ($idVal == 2)
 {
 ?>
-<input type="image" id="bt4" src="images/take_survey.png">
-<input type="image" id="bt5" src="images/take_survey.png">
-<input type="image" id="bt6" src="images/take_survey.png">
-<input type="image" id="bt7" src="images/take_survey.png">
-<input type="image" id="bt8" src="images/take_survey.png">
-<input type="image" id="bt9" src="images/take_survey.png">
+<input type="image" id="bt4" src="images/take_survey.png" value="happy">
+<input type="image" id="bt5" src="images/take_survey.png" value="mellow">
+<input type="image" id="bt6" src="images/take_survey.png" value="sleepy">
+<input type="image" id="bt7" src="images/take_survey.png" value="energetic">
+<input type="image" id="bt8" src="images/take_survey.png" value="creative">
+<input type="image" id="bt9" src="images/take_survey.png" value="focused">
 
 
 <?php
@@ -49,11 +49,13 @@ if ($idVal == 1)
 }elseif ($idVal == 3)
 {
 ?>
-<input type="image" id="bt10" src="images/take_survey.png">
-<input type="image" id="bt11" src="images/take_survey.png">
-<input type="image" id="bt12" src="images/take_survey.png">
-<input type="image" id="bt13" src="images/take_survey.png">
-<input type="image" id="bt14" src="images/take_survey.png">
+<input type="image" id="bt10" src="images/take_survey.png" value="edible">
+<input type="image" id="bt11" src="images/take_survey.png" value="pipe">
+<input type="image" id="bt12" src="images/take_survey.png" value="bong">
+<input type="image" id="bt13" src="images/take_survey.png" value="vape">
+<input type="image" id="bt14" src="images/take_survey.png" value="pills">
+<input type="image" id="bt21" src="images/take_survey.png" value="rolling_paper">
+
 
 
 
@@ -61,24 +63,24 @@ if ($idVal == 1)
 }elseif ($idVal == 4)
 {
 ?>
-<input type="image" id="bt15" src="images/take_survey.png">
-<input type="image" id="bt16" src="images/take_survey.png">
+<input type="image" id="bt15" src="images/take_survey.png" value="yes">
+<input type="image" id="bt16" src="images/take_survey.png" value="no">
 
 
 <?php
 }elseif ($idVal == 5)
 {
 ?>
-<input type="image" id="bt17" src="images/take_survey.png">
-<input type="image" id="bt18" src="images/take_survey.png">
+<input type="image" id="bt17" src="images/take_survey.png" value="yes">
+<input type="image" id="bt18" src="images/take_survey.png" value="no">
 
 
 <?php
 }elseif ($idVal == 6)
 {
 ?>
-<input type="image" id="bt19" src="images/take_survey.png">
-<input type="image" id="bt20" src="images/take_survey.png">
+<input type="image" id="bt19" src="images/take_survey.png" value="yes">
+<input type="image" id="bt20" src="images/take_survey.png" value="no">
 
 <?php
 }
@@ -111,8 +113,15 @@ var currentQ = 1;
 var next = document.getElementById("Next");
 var prev = document.getElementById("Prev");
 
+
+
+
+
+
 next.addEventListener("click",nNext,false);
 prev.addEventListener("click",pPrev,false);
+
+
 
 var qs = document.getElementsByTagName("div");
 
