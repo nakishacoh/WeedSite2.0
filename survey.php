@@ -14,6 +14,7 @@ $idVal=1;
 <head>
 </head>
 <body>
+  <form method="post" action="survey-processing.php">
 <?php
 while($row = $stmt->fetch()) {
         ?><div id="q<?=$idVal;?>" class="question">
@@ -98,6 +99,8 @@ if ($idVal == 1)
 <br><br>
 <button id="Prev">Prev</button>
 <button id="Next">Next</button>
+<input type="submit">
+</form>
 <!-- <script>
 
 var currentQ = 1;
