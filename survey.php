@@ -14,7 +14,7 @@ $idVal=1;
 <head>
 </head>
 <body>
-  <form method="post" action="survey-processing.php">
+  <!-- <form action="survey-processing.php" method="post"> -->
 <?php
 while($row = $stmt->fetch()) {
         ?><div id="q<?=$idVal;?>" class="question">
@@ -25,19 +25,19 @@ while($row = $stmt->fetch()) {
 if ($idVal == 1)
 {
   ?>
-<input type="image" class="Q1" id="bt1" data-value="beginner" src="buttons/take_survey.png">
-<input type="image" class="Q1" id="bt2" data-value="intermediate" src="buttons/take_survey.png">
-<input type="image" class="Q1" id="bt3" data-value="expert" src="buttons/take_survey.png">
+<input type="image" class="Q1" id="a1" name="q1" data-value="beginner" src="buttons/take_survey.png">
+<input type="image" class="Q1" id="a1" name="q1" data-value="intermediate" src="buttons/take_survey.png">
+<input type="image" class="Q1" id="a1" name="q1" data-value="expert" src="buttons/take_survey.png">
 <?php
 }elseif ($idVal == 2)
 {
 ?>
-<input type="image" class="Q2" id="bt4" data-value="happy" src="buttons/take_survey.png">
-<input type="image" class="Q2" id="bt5" data-value="mellow" src="buttons/take_survey.png">
-<input type="image" class="Q2" id="bt6" data-value="sleepy" src="buttons/take_survey.png">
-<input type="image" class="Q2" id="bt7" data-value="energetic" src="buttons/take_survey.png">
-<input type="image" class="Q2" id="bt8" data-value="creative" src="buttons/take_survey.png">
-<input type="image" class="Q2" id="bt9" data-value="focused" src="buttons/take_survey.png">
+<input type="image" class="Q2" id="a2" name="q2" data-value="happy" src="buttons/take_survey.png">
+<input type="image" class="Q2" id="a2" name="q2" data-value="mellow" src="buttons/take_survey.png">
+<input type="image" class="Q2" id="a2" name="q2" data-value="sleepy" src="buttons/take_survey.png">
+<input type="image" class="Q2" id="a2" name="q2" data-value="energetic" src="buttons/take_survey.png">
+<input type="image" class="Q2" id="a2" name="q2" data-value="creative" src="buttons/take_survey.png">
+<input type="image" class="Q2" id="a2" name="q2" data-value="focused" src="buttons/take_survey.png">
 
 
 <?php
@@ -45,12 +45,12 @@ if ($idVal == 1)
 }elseif ($idVal == 3)
 {
 ?>
-<input type="image" class="Q3" id="bt10" data-value="edible" src="buttons/take_survey.png">
-<input type="image" class="Q3" id="bt11" data-value="pipe" src="buttons/take_survey.png">
-<input type="image" class="Q3" id="bt12" data-value="bong" src="buttons/take_survey.png">
-<input type="image" class="Q3" id="bt13" data-value="vape" src="buttons/take_survey.png">
-<input type="image" class="Q3" id="bt14" data-value="pills" src="buttons/take_survey.png">
-<input type="image" class="Q3" id="bt14" data-value="rolling paper" src="buttons/take_survey.png">
+<input type="image" class="Q3" id="a3" name="q3" data-value="edible" src="buttons/take_survey.png">
+<input type="image" class="Q3" id="a3" name="q3" data-value="pipe" src="buttons/take_survey.png">
+<input type="image" class="Q3" id="a3" name="q3" data-value="bong" src="buttons/take_survey.png">
+<input type="image" class="Q3" id="a3" name="q3" data-value="vape" src="buttons/take_survey.png">
+<input type="image" class="Q3" id="a3" name="q3" data-value="pills" src="buttons/take_survey.png">
+<input type="image" class="Q3" id="a3" name="q3" data-value="rolling paper" src="buttons/take_survey.png">
 
 
 
@@ -58,24 +58,24 @@ if ($idVal == 1)
 }elseif ($idVal == 4)
 {
 ?>
-<input type="image" class="Q4" id="bt15" data-value="yes" src="buttons/take_survey.png">
-<input type="image" class="Q4" id="bt16" data-value="no" src="buttons/take_survey.png">
+<input type="image" class="Q4" id="a4" name="q4" data-value="yes" src="buttons/take_survey.png">
+<input type="image" class="Q4" id="a4" name="q4" data-value="no" src="buttons/take_survey.png">
 
 
 <?php
 }elseif ($idVal == 5)
 {
 ?>
-<input type="image" class="Q5" id="bt17" data-value="yes" src="buttons/take_survey.png">
-<input type="image" class="Q5" id="bt18" data-value="no" src="buttons/take_survey.png">
+<input type="image" class="Q5" id="a5" name="q5" data-value="yes" src="buttons/take_survey.png">
+<input type="image" class="Q5" id="a5" name="q5" data-value="no" src="buttons/take_survey.png">
 
 
 <?php
 }elseif ($idVal == 6)
 {
 ?>
-<input type="image" class="Q6" id="bt19" data-value="yes" src="buttons/take_survey.png">
-<input type="image" class="Q6" id="bt20" data-value="no" src="buttons/take_survey.png">
+<input type="image" class="Q6" id="a6" name="q6" data-value="yes" src="buttons/take_survey.png">
+<input type="image" class="Q6" id="a6" name="q6" data-value="no" src="buttons/take_survey.png">
 
 <?php
 }
@@ -96,11 +96,12 @@ if ($idVal == 1)
          }
 
 ?>
+
 <br><br>
 <button id="Prev">Prev</button>
 <button id="Next">Next</button>
-<input type="submit">
-</form>
+<input type="submit" id="add">
+<!-- </form> -->
 <!-- <script>
 
 var currentQ = 1;
@@ -158,6 +159,7 @@ if (currentQ >1){
 
 </script> -->
 <script src="js/survey.js" type="text/javascript"></script>
+<script src="js/ajax.js"></script>
 </body>
 </html>
 <?php ?>

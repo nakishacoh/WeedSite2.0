@@ -104,4 +104,15 @@ function ansQ5(e){
 function ansQ6(e){
   ansObj.a6 = e.target.getAttribute("data-value");
   console.log(ansObj);
+  if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
+  {
+    var strain = "Sativa"
+    console.log(strain);
+  }
+}
+
+if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
+{
+  var strain = "Sativa"
+  console.log(strain);
 }
