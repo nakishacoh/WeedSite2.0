@@ -30,11 +30,9 @@ if ($idVal == 1)
 {
   ?>
 <br>
-<span id="set">
 <img class="Q1" id="a1" name="q1" data-value="beginner" src="buttons/SPbuttons/tier1/1.png">
 <img class="Q1" id="a1" name="q1" data-value="intermediate" src="buttons/SPbuttons/tier1/2.png">
 <img class="Q1" id="a1" name="q1" data-value="expert" src="buttons/SPbuttons/tier1/3.png">
-</span>
 <?php
 }elseif ($idVal == 2)
 {
@@ -108,9 +106,10 @@ if ($idVal == 1)
          }
 
 ?>
-
-<p id="Prev">Prev</p>
-<p id="Next">Next</p>
+<span class="nextprev">
+<img id="Prev" src="buttons/SPbuttons/tier1/back.png">
+<img id="Next"src="buttons/SPbuttons/tier1/next.png">
+</span>
 <input type="submit" >
 </form>
 

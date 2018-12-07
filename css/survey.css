@@ -9,14 +9,43 @@ form{
   left:180px;
   margin:10px;
   padding:5%;
+  top:80px;
 }
 #image{
   float:left;
   height:100%;
   width:30%;
 }
-#set{
-  position:absolute;
+.Q1{
+  display:inline;
+  left:120px;
+  width:170px;
+
+}
+.Q2{
+  display:inline;
+  left:120px;
+  width:170px;
+}
+.Q3{
+  display:inline;
+  left:120px;
+  width:170px;
+}
+.Q4{
+  display:inline;
+  left:120px;
+  width:170px;
+}
+.Q5{
+  display:inline;
+  left:120px;
+  width:170px;
+}
+.Q6{
+  display:inline;
+  left:120px;
+  width:170px;
 }
 #pagination{
   position:absolute;
@@ -27,4 +56,8 @@ form{
 }
 .question{
   display: inline-block
+}
+.nextprev{
+  position:relative;
+  top:400px;
 }
