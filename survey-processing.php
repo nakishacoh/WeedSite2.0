@@ -1,19 +1,30 @@
 <?php
-$decodedDataObject =  json_decode($_POST["q1"]);
-echo($decodedDataObject["a1"]);
+$decodedDataObject =  json_decode($_POST["data"]);
 
-$dsn = "mysql:host=localhost;dbname=browne9_As1;charset=utf8mb4";
-$dbusername = "browne9_imm";
-$dbpassword = "receWO5tmv&q";
+
+if ($decodedDataObject->a1="beginner" &&
+    $decodedDataObject->a2="happy" &&
+    $decodedDataObject->a3="edible" &&
+    $decodedDataObject->a1="yes" &&
+    $decodedDataObject->a1="yes" &&
+    $decodedDataObject->a1="yes")
+{
+  $strain="sativa";
+ }
+
+
+ $dsn = "mysql:host=localhost;dbname=browne9_Weedsite;charset=utf8mb4";
+  $dbusername = "browne9_weedsite";
+  $dbpassword = "g@5o4nFUJ7ha";
 
 $pdo = new PDO($dsn, $dbusername, $dbpassword);
 
-// $stmt = $pdo->prepare("INSERT INTO `` (`id`, `name`, `email`, `games`,`esports`,`competitions`,`role`)
-// VALUES ('$id', '$name', '$email', '$games','$esports','$competitions','$role');");
-//
-// $stmt->execute();
-echo('{"success":
-  "true"
+$stmt = $pdo->prepare("INSERT INTO `Strains` (`id`, `strain`)
+VALUES (NULL, '$strain');");
+
+$stmt->execute();
+echo('{
+  "strain":"$strain"
 }');
 
 //header("Location: dashboard.php");
