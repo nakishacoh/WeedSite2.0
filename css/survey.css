@@ -1,0 +1,30 @@
+body{
+  font-size: 40px;
+  font-family: "Tw Cen MT", sans-serif;
+  margin:0;
+}
+form{
+  float:left;
+  position:relative;
+  left:180px;
+  margin:10px;
+  padding:5%;
+}
+#image{
+  float:left;
+  height:100%;
+  width:30%;
+}
+#set{
+  position:absolute;
+}
+#pagination{
+  position:absolute;
+  margin:auto;
+  padding:auto;
+  left:250px;
+  float:right;
+}
+.question{
+  display: inline-block
+}
