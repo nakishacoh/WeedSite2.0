@@ -13,8 +13,13 @@ $idVal=1;
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/survey.css" />
+  <?php
+    include('header.php')
+  ?>
 </head>
+
 <body>
+
   <img  id="image" src="images/sphoto.png">
 
       <form  action="survey-processing.php" method="post" id="add">
@@ -30,9 +35,11 @@ if ($idVal == 1)
 {
   ?>
 <br>
+
 <img class="Q1" id="a1" name="q1" data-value="beginner" src="buttons/SPbuttons/tier1/1.png">
 <img class="Q1" id="a1" name="q1" data-value="intermediate" src="buttons/SPbuttons/tier1/2.png">
 <img class="Q1" id="a1" name="q1" data-value="expert" src="buttons/SPbuttons/tier1/3.png">
+
 <?php
 }elseif ($idVal == 2)
 {
@@ -79,8 +86,8 @@ if ($idVal == 1)
 {
 ?>
 <br>
-<img  class="Q5" id="a5" name="q5" data-value="yes" src="buttons/SPbuttons/tier1/18.png">
-<img  class="Q5" id="a5" name="q5" data-value="no" src="buttons/SPbuttons/tier1/19.png">
+<img  class="Q5" id="a5" name="q5" data-value="yes" src="buttons/SPbuttons/tier1/16.png">
+<img  class="Q5" id="a5" name="q5" data-value="no" src="buttons/SPbuttons/tier1/17.png">
 
 
 <?php
@@ -88,8 +95,8 @@ if ($idVal == 1)
 {
 ?>
 <br>
-<img  class="Q6" id="a6" name="q6" data-value="yes" src="buttons/SPbuttons/tier1/20.png">
-<img  class="Q6" id="a6" name="q6" data-value="no" src="buttons/SPbuttons/tier1/21.png">
+<img  class="Q6" id="a6" name="q6" data-value="yes" src="buttons/SPbuttons/tier1/16.png">
+<img  class="Q6" id="a6" name="q6" data-value="no" src="buttons/SPbuttons/tier1/17.png">
 
 <?php
 }
