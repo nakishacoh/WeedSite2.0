@@ -38,13 +38,15 @@ if ($idVal == 1)
 {
 ?>
 <br>
+<span id="alignText">
 <img class="Q2" id="a2" name="q2" data-value="happy" src="buttons/SPbuttons/tier1/4.png">
 <img class="Q2" id="a2" name="q2" data-value="mellow" src="buttons/SPbuttons/tier1/5.png">
 <img class="Q2" id="a2" name="q2" data-value="sleepy" src="buttons/SPbuttons/tier1/6.png">
+<br>
 <img class="Q2" id="a2" name="q2" data-value="energetic" src="buttons/SPbuttons/tier1/7.png">
 <img class="Q2" id="a2" name="q2" data-value="creative" src="buttons/SPbuttons/tier1/8.png">
 <img class="Q2" id="a2" name="q2" data-value="focused" src="buttons/SPbuttons/tier1/9.png">
-
+</span>
 
 <?php
 
@@ -52,13 +54,15 @@ if ($idVal == 1)
 {
 ?>
 <br>
+<span id="alignText">
 <img  class="Q3" id="a3" name="q3" data-value="edible" src="buttons/SPbuttons/tier1/10.png">
 <img  class="Q3" id="a3" name="q3" data-value="pipe" src="buttons/SPbuttons/tier1/11.png">
 <img  class="Q3" id="a3" name="q3" data-value="bong" src="buttons/SPbuttons/tier1/12.png">
+<br>
 <img  class="Q3" id="a3" name="q3" data-value="vape" src="buttons/SPbuttons/tier1/13.png">
 <img  class="Q3" id="a3" name="q3" data-value="pills" src="buttons/SPbuttons/tier1/14.png">
 <img  class="Q3" id="a3" name="q3" data-value="rolling paper" src="buttons/SPbuttons/tier1/15.png">
-
+</span>
 
 
 <?php
