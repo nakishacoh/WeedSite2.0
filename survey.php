@@ -13,8 +13,13 @@ $idVal=1;
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/survey.css" />
+  <?php
+    include('header.php')
+  ?>
 </head>
+
 <body>
+
   <img  id="image" src="images/sphoto.png">
 
       <form  action="survey-processing.php" method="post" id="add">

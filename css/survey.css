@@ -9,17 +9,17 @@ form{
   left:180px;
   margin:10px;
   padding:5%;
-  top:80px;
+  top:110px;
 }
 #Prev{
   position:absolute;
-  width:250px;
+  width:210px;
   height:auto;
 }
 #Next{
   position:absolute;
-  left:600px;
-  width:250px;
+  left:800px;
+  width:210px;
   height:auto;
 }
 #image{
@@ -75,7 +75,7 @@ form{
   display: inline-block
 }
 .nextprev{
-  position:relative;
-  top:400px;
+    position:relative;
+  top:300px;
 
 }
