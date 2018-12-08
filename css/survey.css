@@ -11,6 +11,17 @@ form{
   padding:5%;
   top:80px;
 }
+#Prev{
+  position:absolute;
+  width:250px;
+  height:auto;
+}
+#Next{
+  position:absolute;
+  left:600px;
+  width:250px;
+  height:auto;
+}
 #image{
   float:left;
   height:100%;
@@ -19,34 +30,40 @@ form{
 .Q1{
   display:inline;
   left:120px;
-  width:170px;
-
+  width:350px;
+  height:auto;
 }
 .Q2{
   display:inline;
   left:120px;
-  width:170px;
+  width:350px;
+  height:auto;
 }
 .Q3{
   display:inline;
   left:120px;
-  width:170px;
+  width:350px;
+  height:auto;
 }
 .Q4{
   display:inline;
   left:120px;
-  width:170px;
+  width:350px;
+  height:auto;
 }
 .Q5{
   display:inline;
   left:120px;
-  width:170px;
+  width:350px;
+  height:auto;
 }
 .Q6{
   display:inline;
   left:120px;
-  width:170px;
+  width:350px;
+  height:auto;
 }
+
 #pagination{
   position:absolute;
   margin:auto;
@@ -60,4 +77,5 @@ form{
 .nextprev{
   position:relative;
   top:400px;
+
 }
