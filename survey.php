@@ -9,16 +9,13 @@ $dsn = "mysql:host=localhost;dbname=browne9_Weedsite;charset=utf8mb4";
 
 $idVal=1;
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="css/survey.css" />
+
   <?php
     include('header.php')
   ?>
-</head>
+    <link rel="stylesheet" type="text/css" href="css/survey.css" />
 
-<body>
+</body>
 
   <img  id="image" src="images/sphoto.png">
 
@@ -120,8 +117,9 @@ if ($idVal == 1)
 <span class="nextprev">
 <img id="Prev" src="buttons/SPbuttons/tier1/back.png">
 <img id="Next"src="buttons/SPbuttons/tier1/next.png">
+<img id="submitBtn" src="buttons/SPbuttons/tier1/submit.png">
 </span>
-<input type="submit" >
+<!-- <input type="submit" > -->
 </form>
 
 <!-- <script>
@@ -183,5 +181,5 @@ if (currentQ >1){
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
 </body>
-</html>
+
 <?php ?>
