@@ -1,8 +1,5 @@
 /* connected*/
 
-body{
-  margin:auto;
-}
 .img{
   width:100%;
   border:0;
@@ -25,8 +22,8 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100;
-    /* font-family: Work-sans; */
+    /* height: 100; */
+    font-family: "Tw Cen MT", sans-serif;
     font-weight: 400;
     background: #fff;
     background-position: center;
@@ -35,6 +32,12 @@ body{
 
   nav{
     /* padding: 3px; */
+  }
+
+  .container{
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px 10px;
   }
 
   .logo{
@@ -77,6 +80,33 @@ body{
     margin-left: 16px;
     margin-top: 12px;
   }
+
+.nav-wrapper a:hover
+{
+ color: grey;
+}
+
+.nav-wrapper::before
+{
+ content: '';
+ /* display: block; */
+ /* height: 1px; */
+ width: 10px;
+ /* position: absolute; */
+ /* background-color: red; */
+ border-bottom: 5px solid #000;
+ bottom: 0;
+ position: absolute;
+ transition: 0.7s all;
+
+ /* transition: all ease-in-out 250ms; */
+}
+
+.nav-wrapper:hover::before
+{
+ width: 30px;
+ /* right: 0; */
+}
 
 /*Footer*/
 
