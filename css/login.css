@@ -24,8 +24,9 @@ img{
 #button{
   background-color: #1c1c1c;
   color:white;
-  border-radius: 2px;
-  width:50px;
+  border-radius: 40px;
+  width:150px;
+  height:50px;
 }
 /* #login{
   width:130px;
