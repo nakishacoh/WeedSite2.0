@@ -1,31 +1,18 @@
 <?php
 include('header.php')
 ?>
+<link rel="stylesheet" type="text/css" href="css/register.css" />
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-
-		<h1>Registration</h1>
-		<br>
+    <img id="image" src = "images/Register.png">
 
 		<form class="form" method='POST' action='process-register.php'>
-        First Name: <input type='text' name="firstname" />
-        <br>
-        Last Name: <input type='text' name="lastname" />
-        <br>
-        Email: <input type='text' name="email" />
-        <br>
-        Username: <input type='text' name="username" />
-        <br>
-			  Password: <input type='text' name="password" />
-        <br>
-			<input type='submit'>
+        <div>Email: <input id="email" type='email' name="email" /></div>
+
+        <div>Password: <input id="password" type='password' name="password" placeholder="Your password"/></div>
+
+			  <input id = "button" type='submit' text="log in">
 		</form>
 
-    <?php
-    include('footer.php')
-  ?>
+    <!-- <?php
+    // include('footer.php')
+  ?> -->

@@ -14,7 +14,6 @@
   $dbpassword = "g@5o4nFUJ7ha";
   // var_dump($_POST);
   $pdo = new PDO($dsn, $dbusername, $dbpassword);
-  $stmt->execute();
 
 
 
