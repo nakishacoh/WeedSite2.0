@@ -11,10 +11,30 @@
 input[type=email]:focus {
   border-radius: 4px;
   border: 3px solid black;
+  padding: 12px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
 }
 input[type=password]:focus {
   border-radius: 4px;
   border: 3px solid black;
+  padding: 12px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  position:relative;
+  right:30px;
+}
+input[type=email] {
+  /* border-radius: 13px */
+  padding: 12px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  /* border-radius: 13px */
+  padding: 12px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
 }
 .form{
   float:left;
@@ -30,22 +50,20 @@ input{
   margin-top:15px;
   border: 1px solid black;
   width:300px;
-
-  /* text-align: center; */
   border-radius: 4px;
   height:40px;
 }
-input[type=email] {
-  /* border-radius: 13px */
+/* input[type=email] {
+
   padding: 12px 15px;
   margin: 4px 0;
   box-sizing: border-box;
 }input[type=text] {
-  /* border-radius: 13px */
+
   padding: 12px 15px;
   margin: 4px 0;
   box-sizing: border-box;
-}
+} */
 #button{
   background-color: #1c1c1c;
   color:white;

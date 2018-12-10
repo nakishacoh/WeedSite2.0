@@ -6,13 +6,13 @@ include('header.php')
     <img id="image" src = "images/Register.png">
 
 		<form class="form" method='POST' action='process-register.php'>
-        <div>Email: <input id="email" type='email' name="email" /></div>
+        <div>Email: <input id="email" type='email' name="email" placeholder="example@example.com" /></div>
 
         <div>Password: <input id="password" type='password' name="password" placeholder="Your password"/></div>
 
 			  <input id = "button" type='submit' text="log in">
 		</form>
 
-    <!-- <?php
-    // include('footer.php')
-  ?> -->
+    <?php
+    include('footer.php')
+  ?>

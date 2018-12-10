@@ -1,6 +1,11 @@
 <!--#include file="header.php" -->
 <!--#include file="css/homepage.css" -->
 <style>
+footer {
+ position: absolute;
+ bottom:0;
+ width: 100%;
+}
 
 ul.social_icons, li.social {
     margin-top:-23px;
@@ -24,6 +29,7 @@ ul.social_icons, li.social {
       margin: 0;
       background-color: #000;
       padding: 10px 0px;
+
   }
 
 .class{
