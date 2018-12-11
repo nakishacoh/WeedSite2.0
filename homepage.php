@@ -20,7 +20,7 @@
   <?php
     include('header.php')
   ?>
-<link rel="stylesheet" type="text/css" href="responsive/homepage.css" />
+<link rel="stylesheet" type="text/css" href="css/homepage.css" />
   <div>
     <!--Survey-->
       <div class="cont">
