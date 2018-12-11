@@ -1,9 +1,7 @@
 <?php
 
 // if the register button is clicked
-  $firstname = $_POST['firstname'];
-  $lastname = $_POST['lastname'];
-  $username = $_POST['username'];
+  $id = $_POST['id'];
   $email = $_POST['email'];
   $password = $_POST['password'];
 
@@ -21,12 +19,18 @@
     VALUES ('$firstname', '$lastname', '$email', '$username', '$password');");
 
     $stmt->execute();
-    $_SESSION['username'] = $username;
-    $_SESSION['success'] = "You are now logged in";
+
   // }
-
-
-  header("Location: homepage.php")
+//     if ($row= $stmt->fetch()){
+//       $_SESSION['logged-in'] = true;
+//       $_SESSION['email'] = $row['email'];
+//       $_SESSION['id'] = $row['id'];
+//       header("Location: homepage.php")
+//   }
+// else{
+//
+// }
+  header("Location: login.php")
 
 
  ?>
