@@ -20,8 +20,8 @@
         </div>
         <div class="nav-wrapper">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Survey</a></li>
+            <li><a href="homepage.php">Home</a></li>
+            <li><a href="survey.php">Survey</a></li>
             <li><a href="#">Learn More</a></li>
             <li><a href="register.php">Register</a></li>
             <li><a href="login.php">Login</a></li>

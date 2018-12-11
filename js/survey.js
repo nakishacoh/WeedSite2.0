@@ -1,3 +1,4 @@
+document.getElementById("button").style.display="none";
 var currentQ = 1;
 
 //make a button with addEventListener
@@ -32,10 +33,11 @@ function nNext(){
 
     }
     document.getElementById("q"+currentQ).style.display="block";
-
-console.log(currentQ);
-
-  }
+    if(currentQ == 6){
+      document.getElementById("Next").style.display="none";
+      document.getElementById("button").style.display="block";
+    }
+}
   else{
 
     currentQ = 6;

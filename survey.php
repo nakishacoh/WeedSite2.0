@@ -127,7 +127,6 @@ if ($idVal == 1)
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
 </body>
-
 <?php
- include('footer.php')
+  include('footer.php')
 ?>

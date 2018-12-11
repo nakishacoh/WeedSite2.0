@@ -15,7 +15,3 @@ include('header.php')
       <!-- <button><img id="login" type ='submit' src="buttons/login.png"></button> -->
     <input id = "button" type='submit' text="log in">
   </form>
-
-  <?php
-  include('footer.php')
-  ?>
