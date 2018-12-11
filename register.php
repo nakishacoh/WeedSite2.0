@@ -6,13 +6,30 @@ include('header.php')
     <img id="image" src = "images/Register.png">
 
 		<form class="form" method='POST' action='process-register.php'>
-        <div>Email: <input id="email" type='email' name="email" placeholder="example@example.com" /></div>
+        <div id="email">Email: <input  type='email' name="email" placeholder="example@example.com" /></div>
 
-        <div>Password: <input id="password" type='password' name="password" placeholder="Your password"/></div>
+        <div id="password">Password: <input  type='password' name="password" placeholder="Your password"/></div>
 
 			  <input id = "button" type='submit' text="log in">
 		</form>
+    <footer class="footer">
+      <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
+      <ul class="social_icons">
 
+          <li class="social"> <a href="http://googleplus.com " target="_blank ">
+            <img class="iconimage" src="images/instagram.png "/></a>
+          </li>
+
+          <li class="social"> <a href="http://www.facebook.com " target="_blank ">
+            <img class="iconimage" src="images/facebook.png "/></a>
+          </li>
+
+          <li class="social"> <a href="http://www.twitter.com " target="_blank ">
+            <img class="iconimage" src="images/twitter.png"/></a>
+          </li>
+
+      </ul>
+    </footer>
     <?php
-    include('footer.php')
+    // include('footer.php')
   ?>
