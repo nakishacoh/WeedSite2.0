@@ -1,14 +1,17 @@
 var currentQ = 1;
+
 //make a button with addEventListener
 //make an object that will store the user's previous answers.
 
 var next = document.getElementById("Next");
 var prev = document.getElementById("Prev");
+var submit = document.getElementById("button");
 
 next.addEventListener("click",nNext,false);
 prev.addEventListener("click",pPrev,false);
 
 var qs = document.getElementsByTagName("div");
+
 
 
  for (var i=0; i<qs.length; i++){
@@ -17,6 +20,7 @@ var qs = document.getElementsByTagName("div");
 
 
 
+submit.style.display="none";
    document.getElementById("q"+currentQ).style.display="block";
 
 function nNext(){
@@ -25,14 +29,20 @@ function nNext(){
     currentQ  = currentQ + 1;
     for (var i=0; i<qs.length; i++){
       qs[i].style.display="none";
+
     }
     document.getElementById("q"+currentQ).style.display="block";
 
+console.log(currentQ);
+
   }
   else{
-    currentQ = 6;
-  }
 
+    currentQ = 6;
+    next.style.display="none";
+    submit.style.display="block";
+
+  }
 
 
 }
@@ -43,11 +53,15 @@ if (currentQ >1){
     qs[i].style.display="none";
   }
   document.getElementById("q"+currentQ).style.display="block";
+
 }
   else {
+
     currentQ = 1;
   }
 }
+
+
 //answer object
 var ansObj = {};
 
@@ -104,15 +118,15 @@ function ansQ5(e){
 function ansQ6(e){
   ansObj.a6 = e.target.getAttribute("data-value");
   console.log(ansObj);
-  if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
-  {
-    var strain = "Sativa"
-    console.log(strain);
-  }
+  // if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
+  // {
+  //   var strain = "Sativa"
+  //   console.log(strain);
+  // }
 }
 
-if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
-{
-  var strain = "Sativa"
-  console.log(strain);
-}
+// if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
+// {
+//   var strain = "Sativa"
+//   console.log(strain);
+// }
