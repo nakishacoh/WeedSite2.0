@@ -25,7 +25,7 @@
     <!--Survey-->
       <div class="cont">
       <img src="images/image_1.png" class="img"/>
-      <a href="#"><img id="surveyB" src="buttons/take_survey.png"></a>
+      <a href="survey.php"><img id="surveyB" src="buttons/take_survey.png"></a>
       </div>
   <!--Site Explanation-->
 
@@ -43,9 +43,9 @@
   <img src="images/image_3.png" class="img"/>
   <a href="#"><img id="checkUs" src="buttons/check_us_out.png"></a>
 </div>
-  <?php
-    include('footer.php')
-  ?>
+<?php
+  include('footer.php')
+?>
 
 <!--
   <footer>

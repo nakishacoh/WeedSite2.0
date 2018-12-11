@@ -22,13 +22,16 @@ ul.social_icons, li.social {
 
 
 .footer{
-      width: 100%;
-      height: auto;
-      /* font-size: 16px; */
-      color: #fff;
-      margin: 0;
-      background-color: #000;
-      padding: 10px 0px;
+margin:0;
+text-align: center;
+background-color: #1c1c1c;
+color:white;
+overflow:hidden;
+
+padding: 20px;
+position: -webkit-sticky;
+position: sticky;
+bottom: 0;
 
   }
 

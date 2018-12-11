@@ -30,6 +30,3 @@ include('header.php')
 
       </ul>
     </footer>
-    <?php
-     include('footer.php')
-  ?>
