@@ -11,11 +11,12 @@ $idVal=1;
 ?>
 
   <?php
-    include('header.php')
+      include('header.php')
   ?>
+
     <link rel="stylesheet" type="text/css" href="css/survey.css" />
 
-</body>
+<body>
 
   <img  id="image" src="images/sphoto.png">
 
@@ -117,69 +118,16 @@ if ($idVal == 1)
 <span class="nextprev">
 <img id="Prev" src="buttons/SPbuttons/tier1/back.png">
 <img id="Next"src="buttons/SPbuttons/tier1/next.png">
-<img id="submitBtn" src="buttons/SPbuttons/tier1/submit.png">
+<!-- <img id="submitBtn" src="buttons/SPbuttons/tier1/submit.png"> -->
 </span>
-<!-- <input type="submit" > -->
+<input id="button" type="submit" >
 </form>
 
-<!-- <script>
 
-var currentQ = 1;
-//make a button with addEventListener
-//make an object that will store the user's previous answers.
-
-var next = document.getElementById("Next");
-var prev = document.getElementById("Prev");
-
-next.addEventListener("click",nNext,false);
-prev.addEventListener("click",pPrev,false);
-
-var qs = document.getElementsByTagName("div");
-
-
- for (var i=0; i<qs.length; i++){
-   qs[i].style.display="none";
- }
-
-
-
-   document.getElementById("q"+currentQ).style.display="block";
-
-function nNext(){
-  if(currentQ < 6){
-    console.log("Next");
-    currentQ  = currentQ + 1;
-    for (var i=0; i<qs.length; i++){
-      qs[i].style.display="none";
-    }
-    document.getElementById("q"+currentQ).style.display="block";
-
-  }
-  else{
-    currentQ = 6;
-  }
-
-
-
-}
-function pPrev(){
-if (currentQ >1){
-  currentQ = currentQ - 1;
-  for (var i=0; i<qs.length; i++){
-    qs[i].style.display="none";
-  }
-  document.getElementById("q"+currentQ).style.display="block";
-}
-  else {
-    currentQ = 1;
-  }
-}
-
-
-
-</script> -->
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
 </body>
 
-<?php ?>
+<?php
+ include('footer.php')
+?>
