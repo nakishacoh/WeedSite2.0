@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/homepage.css" />
+  <link rel="stylesheet" href="css/header.css" />
   <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
 </head>
 <body>
@@ -20,8 +20,8 @@
         </div>
         <div class="nav-wrapper">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Survey</a></li>
+            <li><a href="homepage.php">Home</a></li>
+            <li><a href="survey.php">Survey</a></li>
             <li><a href="#">Learn More</a></li>
             <li><a href="register.php">Register</a></li>
             <li><a href="login.php">Login</a></li>

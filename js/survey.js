@@ -1,3 +1,4 @@
+document.getElementById("button").style.display="none";
 var currentQ = 1;
 //make a button with addEventListener
 //make an object that will store the user's previous answers.
@@ -27,10 +28,14 @@ function nNext(){
       qs[i].style.display="none";
     }
     document.getElementById("q"+currentQ).style.display="block";
-
-  }
+    if(currentQ == 6){
+      document.getElementById("Next").style.display="none";
+      document.getElementById("button").style.display="block";
+    }
+}
   else{
     currentQ = 6;
+
   }
 
 
@@ -104,4 +109,15 @@ function ansQ5(e){
 function ansQ6(e){
   ansObj.a6 = e.target.getAttribute("data-value");
   console.log(ansObj);
+  if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
+  {
+    var strain = "Sativa"
+    console.log(strain);
+  }
+}
+
+if (ansObj.a1 == "beginner" && ansObj.a2 == "happy" && ansObj.a3 == "edible" && ansObj.a4 == "yes" && ansObj.a5 == "yes" && ansObj.a6 == "yes")
+{
+  var strain = "Sativa"
+  console.log(strain);
 }

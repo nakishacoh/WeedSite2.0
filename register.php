@@ -1,31 +1,32 @@
 <?php
 include('header.php')
 ?>
+<link rel="stylesheet" type="text/css" href="css/register.css" />
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-
-		<h1>Registration</h1>
-		<br>
+    <img id="image" src = "images/Register.png">
 
 		<form class="form" method='POST' action='process-register.php'>
-        First Name: <input type='text' name="firstname" />
-        <br>
-        Last Name: <input type='text' name="lastname" />
-        <br>
-        Email: <input type='text' name="email" />
-        <br>
-        Username: <input type='text' name="username" />
-        <br>
-			  Password: <input type='text' name="password" />
-        <br>
-			<input type='submit'>
-		</form>
+        <div id="email">Email: <input  type='email' name="email" placeholder="example@example.com" /></div>
 
-    <?php
-    include('footer.php')
-  ?>
+        <div id="password">Password: <input  type='password' name="password" placeholder="Your password"/></div>
+
+			  <input id = "button" type='submit' text="log in">
+		</form>
+    <footer class="footer">
+      <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
+      <ul class="social_icons">
+
+          <li class="social"> <a href="http://googleplus.com " target="_blank ">
+            <img class="iconimage" src="images/instagram.png "/></a>
+          </li>
+
+          <li class="social"> <a href="http://www.facebook.com " target="_blank ">
+            <img class="iconimage" src="images/facebook.png "/></a>
+          </li>
+
+          <li class="social"> <a href="http://www.twitter.com " target="_blank ">
+            <img class="iconimage" src="images/twitter.png"/></a>
+          </li>
+
+      </ul>
+    </footer>

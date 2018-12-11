@@ -1,0 +1,77 @@
+h1{
+  font-family: "Tw Cen MT", sans-serif;
+  font-size:80px;
+  color:white;
+  position:absolute;
+  top:85px;
+  left:1040px;
+}
+h2{
+  text-align: center;
+  font-family: "Tw Cen MT", sans-serif;
+  font-size:60px;
+}
+img{
+  top:100px;
+  width:100%;
+  height:auto;
+}
+.form{
+  font-family: "Tw Cen MT", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#button{
+  background-color: #1c1c1c;
+  color:white;
+  border-radius: 40px;
+  width:150px;
+  height:50px;
+}
+/* #login{
+  width:130px;
+  height:auto;
+  margin:10px;
+} */
+input[type=email] {
+  /* border-radius: 13px */
+  padding: 12px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  /* border-radius: 13px */
+  padding: 12px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+input{
+  font-size: 20px;
+  left:5px;
+  margin-top:15px;
+  border: 1px solid black;
+  width:300px;
+  /* text-align: center; */
+  border-radius: 4px;
+  height:40px;
+}
+input[type=email]:focus {
+  border-radius: 4px;
+  border: 3px solid black;
+}
+input[type=password]:focus {
+  border-radius: 4px;
+  border: 3px solid black;
+}
+#email{
+  position:relative;
+  right:30px;
+}
+#password{
+  position: relative;
+  right:50px;
+}
+div{
+  margin-top: 10px;
+  bottom:20px;
+}

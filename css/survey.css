@@ -1,0 +1,112 @@
+body{
+  font-size: 40px;
+  font-family: "Tw Cen MT", sans-serif;
+  margin:0;
+}
+form{
+  float:left;
+  position:relative;
+  left:180px;
+  margin:10px;
+  padding:5%;
+  top:120px;
+}
+#submitBtn{
+  top:700px;
+  position:absolute;
+  /*  below covers up the next button*/
+  left:600px;
+  width:210px;
+  height:auto;
+}
+#Prev{
+  position:absolute;
+  width:210px;
+  height:auto;
+}
+#Next{
+  position:absolute;
+  left:800px;
+  width:210px;
+  height:auto;
+}
+#image{
+  float:left;
+  height:100%;
+  width:30%;
+}
+.Q1{
+  display:inline;
+  left:120px;
+  width:350px;
+  height:auto;
+  position: relative;
+  left:40px;
+}
+.Q2{
+  display:inline;
+  left:120px;
+  width:350px;
+  height:auto;
+}
+.Q3{
+  display:inline;
+  left:120px;
+  width:350px;
+  height:auto;
+}
+.Q4{
+  display:inline;
+  left:120px;
+  width:350px;
+  height:auto;
+  position: relative;
+  left:40px;
+}
+.Q5{
+  display:inline;
+  left:120px;
+  width:350px;
+  height:auto;
+  position: relative;
+  left:40px;
+}
+.Q6{
+  display:inline;
+  left:120px;
+  width:350px;
+  height:auto;
+  position: relative;
+  left:40px;
+}
+
+#pagination{
+  position:absolute;
+  margin:auto;
+  padding:auto;
+  left:1000px;
+  float:right;
+}
+.question{
+  display: inline-block
+}
+.nextprev{
+  position:absolute;
+  top:700px;
+
+}
+#alignText{
+  position:relative;
+  left:40px;
+}
+#button{
+  background-color: #1c1c1c;
+  color:white;
+  border-radius: 40px;
+  width:210px;
+  height:80px;
+  position:absolute;
+  font-size: 35px;
+  left:920px;
+  top:700px;
+}

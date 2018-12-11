@@ -1,9 +1,7 @@
 <?php
 
 // if the register button is clicked
-  $firstname = $_POST['firstname'];
-  $lastname = $_POST['lastname'];
-  $username = $_POST['username'];
+  $id = $_POST['id'];
   $email = $_POST['email'];
   $password = $_POST['password'];
 
@@ -14,7 +12,6 @@
   $dbpassword = "g@5o4nFUJ7ha";
   // var_dump($_POST);
   $pdo = new PDO($dsn, $dbusername, $dbpassword);
-  $stmt->execute();
 
 
 
@@ -22,12 +19,18 @@
     VALUES ('$firstname', '$lastname', '$email', '$username', '$password');");
 
     $stmt->execute();
-    $_SESSION['username'] = $username;
-    $_SESSION['success'] = "You are now logged in";
+
   // }
-
-
-  header("Location: homepage.php")
+//     if ($row= $stmt->fetch()){
+//       $_SESSION['logged-in'] = true;
+//       $_SESSION['email'] = $row['email'];
+//       $_SESSION['id'] = $row['id'];
+//       header("Location: homepage.php")
+//   }
+// else{
+//
+// }
+  header("Location: login.php")
 
 
  ?>
