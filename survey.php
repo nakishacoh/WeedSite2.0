@@ -21,6 +21,7 @@ $idVal=1;
   <img  id="image" src="images/sphoto.png">
 
       <form  action="survey-processing.php" method="post" id="add">
+        <span = "hide">
 <?php
 while($row = $stmt->fetch()) {
         ?><div id="q<?=$idVal;?>" class="question">
@@ -115,6 +116,14 @@ if ($idVal == 1)
          }
 
 ?>
+</span>
+<span id="result"></span>
+<span id="result2"></span>
+<span id="result3"></span>
+<span id="result4"></span>
+<span id="result5"></span>
+<span id="result6"></span>
+
 <span class="nextprev">
 <img id="Prev" src="buttons/SPbuttons/tier1/back.png">
 <img id="Next"src="buttons/SPbuttons/tier1/next.png">
