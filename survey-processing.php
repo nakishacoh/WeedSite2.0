@@ -1,76 +1,76 @@
 <?php
-$decodedDataObject =  json_decode($_POST["data"]);
+$do =  json_decode($_POST["data"]);
 
 $strain="";
-if ($decodedDataObject->a1=="beginner" &&
-    $decodedDataObject->a2=="happy" || $decodedDataObject->a2=="creative" &&
-    $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-    $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+if ($do->a1=="beginner" &&
+    ($do->a2=="happy" || $do->a2=="creative") &&
+    ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+    $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
 
 {
   $strain="Purple Haze";
  }
- elseif ($decodedDataObject->a1=="beginner" &&
-     $decodedDataObject->a2=="mellow" ||  $decodedDataObject->a2=="focused" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="beginner" &&
+    ( $do->a2=="mellow" ||  $do->a2=="focused") &&
+     ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Chocolope";
  }
- elseif ($decodedDataObject->a1="beginner" &&
-     $decodedDataObject->a2=="sleepy" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+if ($do->a1=="beginner" &&
+     $do->a2=="sleepy" &&
+    ( $do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Obama Kush";
  }
- elseif ($decodedDataObject->a1=="beginner" &&
-     $decodedDataObject->a2=="energetic" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="beginner" &&
+     $do->a2=="energetic" &&
+     ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Bubba Kush";
  }
- elseif ($decodedDataObject->a1=="intermediate" &&
-     $decodedDataObject->a2=="happy" || $decodedDataObject->a2=="creative" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="intermediate" &&
+     ($do->a2=="happy" || $do->a2=="creative") &&
+     ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Super Skunk";
  }
- elseif ($decodedDataObject->a1=="intermediate" &&
-     $decodedDataObject->a2=="sleepy" || $decodedDataObject->a2=="mellow" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="intermediate" &&
+     ($do->a2=="sleepy" || $do->a2=="mellow") &&
+     ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Moby Dick";
  }
 
- elseif ($decodedDataObject->a1=="intermediate" &&
-     $decodedDataObject->a2=="energetic" || $decodedDataObject->a2=="focused" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="intermediate" &&
+    ( $do->a2=="energetic" || $do->a2=="focused") &&
+    ( $do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Dutch Treat";
  }
- elseif ($decodedDataObject->a1=="expert" &&
-     $decodedDataObject->a2=="happy" || $decodedDataObject->a2=="creative" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="expert" &&
+    ( $do->a2=="happy" || $do->a2=="creative") &&
+     ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Chernobyl";
  }
- elseif ($decodedDataObject->a1=="expert" &&
-     $decodedDataObject->a2=="energetic" || $decodedDataObject->a2=="focused" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="expert" &&
+     ($do->a2=="energetic" || $do->a2=="focused") &&
+     ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="ACDC";
  }
- elseif ($decodedDataObject->a1=="expert" &&
-     $decodedDataObject->a2=="sleepy" || $decodedDataObject->a2=="mellow" &&
-     $decodedDataObject->a3=="edible" || $decodedDataObject->a3=="pipe" || $decodedDataObject->a3=="bong" ||
-     $decodedDataObject->a3=="vape" || $decodedDataObject->a3=="pills" || $decodedDataObject->a3=="rolling paper")
+ if ($do->a1=="expert" &&
+     ($do->a2=="sleepy" || $do->a2=="mellow") &&
+     ($do->a3=="edible" || $do->a3=="pipe" || $do->a3=="bong" ||
+     $do->a3=="vape" || $do->a3=="pills" || $do->a3=="rolling paper"))
  {
     $strain="Strawberry Cough ";
  }
@@ -88,9 +88,14 @@ $stmt = $pdo->prepare("INSERT INTO `Strains` (`id`, `strain`)
 VALUES (NULL, '$strain');");
 
 $stmt->execute();
-echo('{
-  "strain":"$strain"
-}');
 
+$stmt2 = $pdo->prepare("SELECT * FROM `Results` WHERE `name`='$strain'");
+
+$stmt2->execute();
+
+$results = $stmt2->fetchAll(PDO::FETCH_ASSOC);
+$json = json_encode($results);
+
+echo($json);
 //header("Location: dashboard.php");
  ?>

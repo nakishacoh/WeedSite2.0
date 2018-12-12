@@ -11,6 +11,20 @@ function addContactF(e)
     if(myRequest.readyState === 4){
       var responseObj  =JSON.parse(myRequest.responseText);
       console.log(responseObj.strain);//responseObj.strain
+      var results = document.getElementById("result");
+      var results2 = document.getElementById("result2");
+      var results3 = document.getElementById("result3");
+      var results4 = document.getElementById("result4");
+      var results5 = document.getElementById("result5");
+      var results6 = document.getElementById("result6");
+
+
+      results.innerHTML = responseObj[0].name;
+      results2.innerHTML = responseObj[0].type;
+      results3.innerHTML = responseObj[0].type;
+
+
+
     }
   }
   // var button_Q1 = document.getElementById("a1");
@@ -40,5 +54,10 @@ function addContactF(e)
   myRequest.open("POST", "survey-processing.php", true); //true means it is asynchronous // Send urls through the url
   myRequest.setRequestHeader("Content-type","application/x-www-form-urlencoded");
   myRequest.send('data='+ JSON.stringify(ansObj));
+fRemove();
+}
 
+function fRemove(){
+  var hideF = document.getElementById("hide");
+  hideF.style.display = "none";
 }
