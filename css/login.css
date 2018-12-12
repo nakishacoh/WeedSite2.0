@@ -1,3 +1,7 @@
+#cont{
+  text-align: center;
+  display: inline;
+}
 h1{
   font-family: "Tw Cen MT", sans-serif;
   font-size:80px;
@@ -5,6 +9,7 @@ h1{
   position:absolute;
   top:85px;
   left:1040px;
+  display: inline;
 }
 h2{
   text-align: center;
@@ -12,6 +17,7 @@ h2{
   font-size:60px;
 }
 img{
+  text-align: center;
   top:100px;
   width:100%;
   height:auto;
