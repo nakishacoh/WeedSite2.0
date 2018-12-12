@@ -88,6 +88,9 @@ $stmt = $pdo->prepare("INSERT INTO `Strains` (`id`, `strain`)
 VALUES (NULL, '$strain');");
 
 $stmt->execute();
+
+header("Location: results.php");
+
 echo('{
   "strain":"$strain"
 }');
