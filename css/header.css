@@ -94,7 +94,7 @@
  width: 10px;
  /* position: absolute; */
  /* background-color: red; */
- border-bottom: 5px solid #000;
+ border-bottom: 5px solid #red;
  bottom: 0;
  position: absolute;
  transition: 0.7s all;

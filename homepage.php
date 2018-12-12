@@ -21,27 +21,28 @@
     include('header.php')
   ?>
 <link rel="stylesheet" type="text/css" href="css/homepage.css" />
-  <div>
+
     <!--Survey-->
       <div class="cont">
-      <img src="images/image_1.png" class="img"/>
+      <img src="images/image_1.png"/>
       <a href="survey.php"><img id="surveyB" src="buttons/take_survey.png"></a>
-      </div>
+
   <!--Site Explanation-->
 
-  <div class="cont">
-    <img src="images/image_4.png" class="img"/>
-  </div>
+
+    <img src="images/image_4.png"/>
+
 
   <!--Cannibis Info -->
-  <div class="cont">
-    <img src="images/image_2.png" class="img"/>
+<div class="mid">
+    <img src="images/image_2.png"/>
     <a href="#"><img id="learnB" src="buttons/learn_more.png"></a>
-  </div>
+</div>
   <!-- About Us -->
-  <div class="cont">
-  <img src="images/image_3.png" class="img"/>
+<div class="mid">
+  <img src="images/image_3.png"/>
   <a href="#"><img id="checkUs" src="buttons/check_us_out.png"></a>
+</div>
 </div>
 <?php
   include('footer.php')
