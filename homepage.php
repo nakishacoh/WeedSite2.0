@@ -23,27 +23,38 @@
 <link rel="stylesheet" type="text/css" href="css/homepage.css" />
 
     <!--Survey-->
-      <div class="cont">
+<div id="top">
+  <!--  weed photo-->
       <img src="images/image_1.png"/>
-      <a href="survey.php"><img id="surveyB" src="buttons/take_survey.png"></a>
+  <!--  weed photo end-->
+
+        <!-- <div class="surveybtn"> -->
+      <a  class="surveybtn" href="survey.php">
+      <img src="buttons/take_survey.png">
+      </a>
+    <!-- </div> -->
+</div>
 
   <!--Site Explanation-->
 
-
-    <img src="images/image_4.png"/>
-
+<div>
+  <img src="images/image_4.png"/>
+</div>
 
   <!--Cannibis Info -->
-<div class="mid">
+<div id="mid">
     <img src="images/image_2.png"/>
-    <a href="#"><img id="learnB" src="buttons/learn_more.png"></a>
+    <a class="learnB" href="#"><img src="buttons/learn_more.png">
+    </a>
 </div>
   <!-- About Us -->
-<div class="mid">
+<div id="last">
   <img src="images/image_3.png"/>
-  <a href="#"><img id="checkUs" src="buttons/check_us_out.png"></a>
+  <a class="checkus" href="aboutpage.php">
+    <img src="buttons/check_us_out.png">
+  </a>
 </div>
-</div>
+
 <?php
   include('footer.php')
 ?>

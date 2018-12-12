@@ -10,15 +10,40 @@ $dsn = "mysql:host=localhost;dbname=browne9_Weedsite;charset=utf8mb4";
 $idVal=1;
 ?>
 
-  <?php
-      include('header.php')
-  ?>
-
-    <link rel="stylesheet" type="text/css" href="css/survey.css" />
-
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="stylesheet" href="css/header.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/survey.css" /> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
+</head>
 <body>
+  <!--  f-->
+    <!-- <div class="container"> -->
+      <header>
+      <nav>
+        <!-- <input type="checkbox" id="nav" class="hidden"> -->
+        <label for="nav" class="nav-btn">
 
-  <img  id="image" src="images/sphoto.png">
+        </label>
+        <span class="logo">
+          <a href= "index.php"><img class="heading" src="images/logo.png"></a>
+        </span>
+        <span class="nav-wrapper">
+          <ul>
+            <li><a href="homepage.php">Home</a></li>
+            <li><a href="survey.php">Survey</a></li>
+            <!-- <li><a href="#">Learn More</a></li> -->
+            <li><a href="register.php">Register</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="aboutpage.php">About</a></li>
+          </ul>
+        </span>
+      </nav>
+    </header>
+    <!-- </div> -->
+    <link rel="stylesheet" type="text/css" href="css/survey.css" />
+  <!-- <img  id="image" src="images/sphoto.png"> -->
 
       <form  action="survey-processing.php" method="post" id="add">
         <span = "hide">
@@ -136,6 +161,22 @@ if ($idVal == 1)
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
 </body>
-<?php
-  include('footer.php')
-?>
+</html>
+<footer class="footer">
+  <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
+  <ul class="social_icons">
+
+      <li class="social"> <a href="http://googleplus.com " target="_blank ">
+        <img class="iconimage" src="images/instagram.png "/></a>
+      </li>
+
+      <li class="social"> <a href="http://www.facebook.com " target="_blank ">
+        <img class="iconimage" src="images/facebook.png "/></a>
+      </li>
+
+      <li class="social"> <a href="http://www.twitter.com " target="_blank ">
+        <img class="iconimage" src="images/twitter.png"/></a>
+      </li>
+
+  </ul>
+</footer>

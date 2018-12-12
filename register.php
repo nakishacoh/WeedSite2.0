@@ -3,8 +3,9 @@ include('header.php')
 ?>
 <link rel="stylesheet" type="text/css" href="css/register.css" />
 
-    <img id="image" src = "images/Register.png">
-
+    <!-- <img id="image" src = "images/Register.png"> -->
+    <img src="images/bar1.png">
+<h2>Registration</h2>
 		<form class="form" method='POST' action='process-register.php'>
         <div id="email">Email: <input  type='email' name="email" placeholder="example@example.com" /></div>
 
