@@ -142,12 +142,33 @@ if ($idVal == 1)
 
 ?>
 </span>
-<span id="result"></span>
-<span id="result2"></span>
-<span id="result3"></span>
-<span id="result4"></span>
-<span id="result5"></span>
-<span id="result6"></span>
+<span id="name"></span>
+<br>
+<span id=type></span>
+<br>
+<span id="recommend1"></span>
+<br>
+<span id="image1"></span>
+<br>
+<span id="recommend2"></span>
+<br>
+<span id="image2"></span>
+<br>
+<span id="recommend3"></span>
+<br>
+<span id="image3"></span>
+<br>
+<span id="goodeffects"></span>
+<br>
+<span id="badeffects"></span>
+<br>
+<span id="thc"></span>
+<br>
+<span id="cdb"></span>
+
+
+
+
 
 <span class="nextprev">
 <img id="Prev" src="buttons/SPbuttons/tier1/back.png">

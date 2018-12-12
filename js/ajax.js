@@ -11,17 +11,33 @@ function addContactF(e)
     if(myRequest.readyState === 4){
       var responseObj  =JSON.parse(myRequest.responseText);
       console.log(responseObj.strain);//responseObj.strain
-      var results = document.getElementById("result");
-      var results2 = document.getElementById("result2");
-      var results3 = document.getElementById("result3");
-      var results4 = document.getElementById("result4");
-      var results5 = document.getElementById("result5");
-      var results6 = document.getElementById("result6");
+      var name = document.getElementById("name");
+      var type = document.getElementById("type");
+      var recommend1 = document.getElementById("recommend1");
+      var image1 = document.getElementById("image1");
+      var recommend2 = document.getElementById("recommend2");
+      var image2 = document.getElementById("image2");
+      var recommend3 = document.getElementById("recommend3");
+      var image3 = document.getElementById("image3");
+      var goodeffects = document.getElementById("goodeffects");
+      var badeffects = document.getElementById("badeffects");
+      var thc = document.getElementById("thc");
+      var cdb = document.getElementById("cdb");
 
 
-      results.innerHTML = responseObj[0].name;
-      results2.innerHTML = responseObj[0].type;
-      results3.innerHTML = responseObj[0].type;
+
+
+      name.innerHTML ="Name: " + responseObj[0].name;
+      type.innerHTML ="Type: " + responseObj[0].type;
+      recommend1.innerHTML ="1st Recommendation: " + responseObj[0].res1;
+      recommend2.innerHTML ="2nd Recommendation: " + responseObj[0].res2;
+      recommend3.innerHTML ="3rd Recommendation: " + responseObj[0].res3;
+      goodeffects.innerHTML ="Good Effects: " + responseObj[0].goodeffects;
+      badeffects.innerHTML ="Bad Effects: " + responseObj[0].badeffects;
+      thc.innerHTML ="THC: " + responseObj[0].thcprct;
+      cdb.innerHTML ="CDB: " + responseObj[0].cdbprct;
+
+
 
 
 
