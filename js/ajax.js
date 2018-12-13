@@ -26,7 +26,7 @@ function addContactF(e)
 
 
 
-
+      image1.setAttribute("src","images/"+responseObj[0].img1);
       name.innerHTML ="Name: " + responseObj[0].name;
       type.innerHTML ="Type: " + responseObj[0].type;
       recommend1.innerHTML ="1st Recommendation: " + responseObj[0].res1;

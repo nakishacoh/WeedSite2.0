@@ -159,6 +159,10 @@ form{
   height:100%;
   width:30%;
 }
+#image1{
+  width:15%;
+  height:auto;
+}
 .Q1{
   display:inline;
   left:120px;

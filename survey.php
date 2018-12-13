@@ -44,9 +44,9 @@ $idVal=1;
     <!-- </div> -->
     <link rel="stylesheet" type="text/css" href="css/survey.css" />
   <!-- <img  id="image" src="images/sphoto.png"> -->
-
+<span id ="hide">
       <form  action="survey-processing.php" method="post" id="add">
-        <span = "hide">
+
 <?php
 while($row = $stmt->fetch()) {
         ?><div id="q<?=$idVal;?>" class="question">
@@ -141,14 +141,25 @@ if ($idVal == 1)
          }
 
 ?>
+
+<span class="nextprev">
+<img id="Prev" src="buttons/SPbuttons/tier1/back.png">
+<img id="Next"src="buttons/SPbuttons/tier1/next.png">
+<!-- <img id="submitBtn" src="buttons/SPbuttons/tier1/submit.png"> -->
 </span>
+<input id="button" type="submit" >
+</form>
+</span>
+<br><br>
+<img src="" id="image1"/>
+<br>
 <span id="name"></span>
 <br>
 <span id=type></span>
 <br>
 <span id="recommend1"></span>
-<br>
-<span id="image1"></span>
+
+
 <br>
 <span id="recommend2"></span>
 <br>
@@ -165,20 +176,6 @@ if ($idVal == 1)
 <span id="thc"></span>
 <br>
 <span id="cdb"></span>
-
-
-
-
-
-<span class="nextprev">
-<img id="Prev" src="buttons/SPbuttons/tier1/back.png">
-<img id="Next"src="buttons/SPbuttons/tier1/next.png">
-<!-- <img id="submitBtn" src="buttons/SPbuttons/tier1/submit.png"> -->
-</span>
-<input id="button" type="submit" >
-</form>
-
-
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
 </body>
