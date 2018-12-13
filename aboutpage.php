@@ -55,10 +55,23 @@
 </div>
 <!-- <img src="images/bt.png" width="100%" height="100%"/> -->
 
-
-
-  <footer>
-
-  </footer>
 </body>
+<!-- <footer class="footer">
+  <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
+  <ul class="social_icons">
+
+      <li class="social"> <a href="http://googleplus.com " target="_blank ">
+        <img class="iconimage" src="images/instagram.png "/></a>
+      </li>
+
+      <li class="social"> <a href="http://www.facebook.com " target="_blank ">
+        <img class="iconimage" src="images/facebook.png "/></a>
+      </li>
+
+      <li class="social"> <a href="http://www.twitter.com " target="_blank ">
+        <img class="iconimage" src="images/twitter.png"/></a>
+      </li>
+
+  </ul>
+</footer> -->
 </html>

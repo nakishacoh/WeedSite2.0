@@ -22,16 +22,13 @@ ul.social_icons, li.social {
 
 
 .footer{
-margin:0;
-text-align: center;
-background-color: #1c1c1c;
-color:white;
-overflow:hidden;
-
-padding: 20px;
-position: -webkit-sticky;
-position: sticky;
-bottom: 0;
+      width: 100%;
+      height: auto;
+      /* font-size: 16px; */
+      color: #fff;
+      margin: 0;
+      background-color: #000;
+      padding: 10px 0px;
 
   }
 
@@ -44,6 +41,7 @@ bottom: 0;
   }
 
 .social_icons{
+  position: relative;
   width: 100%;
   height: auto;
   margin:auto;
@@ -62,6 +60,7 @@ bottom: 0;
     height: auto;
     margin:auto;
 }
+
 
 /* .socialicons ul li a{
   color: #000;
