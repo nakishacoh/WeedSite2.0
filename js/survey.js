@@ -7,6 +7,7 @@ var currentQ = 1;
 var next = document.getElementById("Next");
 var prev = document.getElementById("Prev");
 var submit = document.getElementById("button");
+var account = document.getElementById("create");
 
 next.addEventListener("click",nNext,false);
 prev.addEventListener("click",pPrev,false);
@@ -22,6 +23,7 @@ var qs = document.getElementsByTagName("div");
 
 
 submit.style.display="none";
+account.style.display="none";
    document.getElementById("q"+currentQ).style.display="block";
 
 function nNext(){
@@ -43,6 +45,7 @@ function nNext(){
     currentQ = 6;
     next.style.display="none";
     submit.style.display="block";
+
 
   }
 

@@ -151,23 +151,13 @@ if ($idVal == 1)
 </form>
 </span>
 <br><br>
-<img src="" id="image1"/>
+<section id="hope">
+<img src="" id="imageMain"/>
 <br>
+<section id="results-right">
 <span id="name"></span>
 <br>
 <span id=type></span>
-<br>
-<span id="recommend1"></span>
-
-
-<br>
-<span id="recommend2"></span>
-<br>
-<span id="image2"></span>
-<br>
-<span id="recommend3"></span>
-<br>
-<span id="image3"></span>
 <br>
 <span id="goodeffects"></span>
 <br>
@@ -176,6 +166,26 @@ if ($idVal == 1)
 <span id="thc"></span>
 <br>
 <span id="cdb"></span>
+<br>
+</section>
+<section id="rec">
+<img src="" id="image1" class="inline"/>
+
+<span id="recommend1"></span>
+
+<img src="" id="image2" class="inline"/>
+
+
+<span id="recommend2"></span>
+
+<img src="" id="image3" class="inline"/>
+
+
+<span id="recommend3"></span>
+
+</section>
+<a id="create" href="register.php">Create account</a>
+</section>
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
 </body>

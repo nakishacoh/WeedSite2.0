@@ -11,6 +11,7 @@ function addContactF(e)
     if(myRequest.readyState === 4){
       var responseObj  =JSON.parse(myRequest.responseText);
       console.log(responseObj.strain);//responseObj.strain
+      var image = document.getElementById("imageMain");
       var name = document.getElementById("name");
       var type = document.getElementById("type");
       var recommend1 = document.getElementById("recommend1");
@@ -26,12 +27,15 @@ function addContactF(e)
 
 
 
-      image1.setAttribute("src","images/"+responseObj[0].img1);
-      name.innerHTML ="Name: " + responseObj[0].name;
+      image.setAttribute("src","images/"+responseObj[0].image);
+      name.innerHTML = responseObj[0].name;
       type.innerHTML ="Type: " + responseObj[0].type;
-      recommend1.innerHTML ="1st Recommendation: " + responseObj[0].res1;
-      recommend2.innerHTML ="2nd Recommendation: " + responseObj[0].res2;
-      recommend3.innerHTML ="3rd Recommendation: " + responseObj[0].res3;
+      recommend1.innerHTML =  responseObj[0].res1;
+      image1.setAttribute("src","images/"+responseObj[0].img1);
+      recommend2.innerHTML =  responseObj[0].res2;
+      image2.setAttribute("src","images/"+responseObj[0].img2);
+      recommend3.innerHTML = responseObj[0].res3;
+      image3.setAttribute("src","images/"+responseObj[0].img3);
       goodeffects.innerHTML ="Good Effects: " + responseObj[0].goodeffects;
       badeffects.innerHTML ="Bad Effects: " + responseObj[0].badeffects;
       thc.innerHTML ="THC: " + responseObj[0].thcprct;
@@ -76,4 +80,6 @@ fRemove();
 function fRemove(){
   var hideF = document.getElementById("hide");
   hideF.style.display = "none";
+  var account = document.getElementById("create");
+  account.style.display="block";
 }
