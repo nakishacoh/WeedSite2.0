@@ -9,15 +9,14 @@ h2{
   font-size:60px;
 }
 img{
-  text-align: center;
-  top:100px;
   width:100%;
-  height:auto;
 }
 .form{
   font-family: "Tw Cen MT", sans-serif;
   font-size: 30px;
-  text-align: center;
+  margin-top:60px;
+  margin-left: 40%;
+  margin-right: 30%;
 }
 #button{
   background-color: #1c1c1c;
@@ -63,7 +62,7 @@ input[type=password]:focus {
 }
 #email{
   position:relative;
-  right:30px;
+  right:39px;
 }
 #password{
   position: relative;
@@ -73,11 +72,8 @@ div{
   margin-top: 10px;
   bottom:20px;
 }
-footer {
- position: absolute;
- bottom:0;
- width: 100%;
-}
+
+
 
 ul.social_icons, li.social {
     margin-top:-23px;
@@ -101,6 +97,8 @@ ul.social_icons, li.social {
       margin: 0;
       background-color: #000;
       padding: 10px 0px;
+      position: absolute;
+      bottom: 0;
 
   }
 

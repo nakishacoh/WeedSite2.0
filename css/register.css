@@ -88,10 +88,13 @@ input{
   position:relative;
   left:160px;
 }
+
+/*Footer*/
 footer {
  position: absolute;
  bottom:0;
  width: 100%;
+
 }
 
 ul.social_icons, li.social {
