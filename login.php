@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/homepage.css" />
   <link rel="stylesheet" type="text/css" href="css/login.css" />
 
 

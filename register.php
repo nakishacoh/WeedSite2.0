@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/homepage.css" />
-  <link rel="stylesheet" type="text/css" href="css/login.css" />
+  <link rel="stylesheet" type="text/css" href="css/register.css" />
 
 
   <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
@@ -26,7 +26,7 @@
           <ul>
             <li><a href="homepage.php">Home</a></li>
             <li><a href="survey.php">Survey</a></li>
-            <!-- <li><a href="#">Learn More</a></li> -->
+            <li><a href="learnmore.php">Learn More</a></li>
             <li><a href="register.php">Register</a></li>
             <li><a href="login.php">Login</a></li>
             <li><a href="aboutpage.php">About</a></li>
