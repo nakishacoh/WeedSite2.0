@@ -35,19 +35,40 @@
       </nav>
     </header>
     </div>
-<link rel="stylesheet" type="text/css" href="css/register.css" />
+<!-- <link rel="stylesheet" type="text/css" href="css/register.css" />
+action='process-register.php' -->
 
-    <!-- <img id="image" src = "images/Register.png"> -->
+<div class="page-content">
+  <div id="banner-login">
     <img src="images/bar1.png">
-<h2>Registration</h2>
-		<form class="form" method='POST' action='process-register.php'>
-        <div id="email">Email: <input  type='email' name="email" placeholder="example@example.com" /></div>
+    <div class="login">
+    <h2>Register</h2>
+  </div>
+</div>
 
-        <div id="password">Password: <input  type='password' name="password" placeholder="Your password"/></div>
+<form method='POST' action='process-register.php'>
+  <div id="form">
 
-			  <input id = "button" type='submit' text="log in">
-		</form>
+<div id="textboxes">
+      <div class="label" id ="left">
+        <label>Email:</label>
+        <input class="textbox" type='email' name="password" placeholder="example@example.com"/>
 
+      </div>
+      <div class="label">
+        <label>Password:</label>
+        <input class="textbox" type='password' name="password" placeholder="Your password"/>
+      </div>
+</div>
+    
+    <div id="btnalign">
+      <input id = "button" type='submit' text="log in">
+    </div>
+    </div>
+</form>
+
+
+</div>
     <!--Footer-->
         <footer class="footer">
           <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
