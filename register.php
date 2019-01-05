@@ -2,8 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/homepage.css" />
-  <link rel="stylesheet" type="text/css" href="css/register.css" />
+  <!-- <link rel="stylesheet" href="css/homepage.css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/login.css" />
 
 
   <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
