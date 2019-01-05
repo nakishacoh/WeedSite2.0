@@ -35,19 +35,50 @@
     </header>
     </div>
 
-
-<img src="images/bar1.png">
-
-<div id = "center">
-  <h2 align="center">Log in</h2>
-  <form align="center" method='POST' action='process-login.php'>
-      <div id = "email">E-mail: <input type='email' name="username" placeholder="example@example.com" /></div>
-      <div id = "password">Password: <input type='password' name="password" placeholder="Your password"/></div>
-      <!-- <button><img id="login" type ='submit' src="buttons/login.png"></button> -->
-    <input id = "button" type='submit' text="log in">
-  </form>
+<!--body  -->
+<div class="page-content">
+  <div id="banner-login">
+    <img src="images/bar1.png">
+    <div class="login">
+    <h2>Login</h2>
+  </div>
 </div>
 
+<form method='POST' action='process-login.php'>
+  <div id="form">
+
+      <!-- <div class="input">
+        <label>Email:</label>
+      </div>
+      <div class="right">
+      <input class="textbox" type='email' name="email" placeholder="example@example.com"/>
+      </div> -->
+<div id="textboxes">
+      <div class="label" id ="left">
+        <label>Email:</label>
+        <input class="textbox" type='email' name="password" placeholder="example@example.com"/>
+
+      </div>
+      <div class="label">
+        <label>Password:</label>
+        <input class="textbox" type='password' name="password" placeholder="Your password"/>
+      </div>
+</div>
+      <!-- <div class="input">
+        <label>Password:</label>
+      </div>
+      <div class="right">
+      <input class="textbox" type='password' name="password" placeholder="Your password"/>
+      </div> -->
+
+    <div id="btnalign">
+      <input id = "button" type='submit' text="log in">
+    </div>
+    </div>
+</form>
+
+
+</div>
 <!--Footer-->
     <footer class="footer">
       <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
@@ -68,6 +99,5 @@
       </ul>
     </footer>
   </div>
-   <script></script>
-   </body>
+  </body>
    </html>

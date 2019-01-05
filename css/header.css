@@ -12,6 +12,7 @@
   }
 
   html{
+    height:100%;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -19,6 +20,7 @@
   }
 
   body{
+    height:100%;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -45,7 +47,6 @@
     padding: 8px;
     margin-left: 16px;
     margin-top: 8px;
-    width:100%;
   }
 
   nav ul{

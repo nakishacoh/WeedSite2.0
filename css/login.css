@@ -1,15 +1,107 @@
-#cont{
+.label{
   text-align: center;
-  display: inline;
+  margin:10px;
+}
+#left{
+  position: relative;
+  left:24px;
+}
+#textboxes{
+  right: 60px;
+  position: relative;
 }
 
-h2{
+#banner-login{
+  position:relative;
+}
+/* #cont{
+  text-align: center;
+  display: inline;
+} */
+
+#button{
+  background-color: #1c1c1c;
+  color:white;
+  border-radius: 40px;
+  width:150px;
+  height:50px;
+}
+#login{
+  width:130px;
+  height:auto;
+  margin:10px;
+}
+#form{
+  position:relative;
+  /* text-align: center; */
+  margin:30px;
+}
+#email{
+  /* position:relative; */
+  right:32px;
+  margin:10px;
+}
+label{
+  font-family: "Tw Cen MT", sans-serif;
+  font-size:27px;
+}
+#password{
+  /* position: relative; */
+  right:50px;
+  margin:10px;
+}
+#btnalign{
+  text-align: center;
+}
+
+.textboxalign{
+  text-align: center;
+  display: inline-block;
+}
+.login{
   text-align: center;
   font-family: "Tw Cen MT", sans-serif;
-  font-size:60px;
+  font-size:4vw;
+  margin:0;
+  position:absolute;
+  bottom:8%;
+  color:white;
+  width:100%;
+}
+h2{
+  margin:0;
+}
+.right {
+    width: 65%;
+    margin-left: 10px;
+    float:left;
+}
+
+.input{
+  width: 30%;
+    float: left;
+    text-align: right;
+  /* margin:0;
+  text-align: center; */
+  font-size: 30px;
+  display: inline-block;
+}
+.textbox{
+
 }
 img{
+  text-align: center;
+  top:100px;
   width:100%;
+  height:auto;
+}
+.page-content{
+  min-height: 100%;
+  margin-bottom:auto;
+}
+.page-content::after{
+  content:"";
+  display:block;
 }
 .form{
   font-family: "Tw Cen MT", sans-serif;
@@ -18,34 +110,24 @@ img{
   margin-left: 40%;
   margin-right: 30%;
 }
-#button{
-  background-color: #1c1c1c;
-  color:white;
-  border-radius: 40px;
-  width:150px;
-  height:50px;
-}
-/* #login{
-  width:130px;
-  height:auto;
-  margin:10px;
-} */
+
+
 input[type=email] {
   /* border-radius: 13px */
   padding: 12px 15px;
-  margin: 4px 0;
+  margin: 4px;
   box-sizing: border-box;
 }
 input[type=password] {
   /* border-radius: 13px */
   padding: 12px 15px;
-  margin: 4px 0;
+  margin: 4px;
   box-sizing: border-box;
 }
 input{
   font-size: 20px;
   left:5px;
-  margin-top:15px;
+  margin:15px;
   border: 1px solid black;
   width:300px;
   /* text-align: center; */
@@ -55,27 +137,25 @@ input{
 input[type=email]:focus {
   border-radius: 4px;
   border: 3px solid black;
+  margin:10px;
 }
 input[type=password]:focus {
   border-radius: 4px;
   border: 3px solid black;
 }
-#email{
-  position:relative;
-  right:39px;
-}
-#password{
-  position: relative;
-  right:50px;
-}
-div{
-  margin-top: 10px;
-  bottom:20px;
+ footer, .page-content::after{
+  height:auto;
 }
 
+/* Footer*/
+ footer {
+ position: absolute;
+ bottom:0;
+ width: 100%;
 
+}
 
-ul.social_icons, li.social {
+ ul.social_icons, li.social {
     margin-top:-23px;
     padding-left:20px;
     padding-right:20px;
@@ -85,7 +165,7 @@ ul.social_icons, li.social {
     text-decoration:none;
     display:inline-block;
     position: relative;
-    /* text-align: left; */
+     text-align: left;
 }
 
 
@@ -97,10 +177,12 @@ ul.social_icons, li.social {
       margin: 0;
       background-color: #000;
       padding: 10px 0px;
-      position: absolute;
+      position: relative;
       bottom: 0;
 
   }
+
+
 
 .class{
       width:70%;
@@ -124,8 +206,7 @@ ul.social_icons, li.social {
 }
 
 .iconimage {
-    /* width:36px;
-    height:36px; */
+
     width: 100%;
     height: auto;
     margin:auto;
