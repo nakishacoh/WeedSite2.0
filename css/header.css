@@ -81,32 +81,29 @@
     margin-top: 12px;
   }
 
-.nav-wrapper a:hover
+ .nav-wrapper a:hover
 {
  color: grey;
 }
-
+/*
 .nav-wrapper::before
 {
  content: '';
  display: block;
  height: 1px;
  width: 10px;
- /* position: absolute; */
  background-color: red;
  border-bottom: 5px solid #red;
  bottom: 0;
  position: absolute;
  transition: 1s all;
+}  */
 
- /* transition: all ease-in-out 250ms; */
-}
-
-.nav-wrapper:hover::before
+/* .nav-wrapper:hover::before
 {
  width: 10px;
  right: 0;
-}
+} */
 
 /*Footer*/
 

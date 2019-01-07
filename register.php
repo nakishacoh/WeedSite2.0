@@ -42,8 +42,11 @@
   <div class="imgdiv">
     <img class="regimg" src="images/register_image.png">
     <div class="alltext">
-      <h1 class="img_title">Register<h1>
-      <p class="img_text">create and account andd nsdfnsdjfoi</p>
+      <h1 class="img_title">Register</h1>
+      <div class="textboxx">
+      <p class="img_text">Create an account and get the benefit of having access to a more extensive
+      survey and getting better, more suitable reccomendations.</p>
+      </div>
     </div>
   </div>
 
