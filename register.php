@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="css/header.css" />
   <!-- <link rel="stylesheet" href="css/homepage.css" /> -->
-  <link rel="stylesheet" type="text/css" href="css/login.css" />
+  <link rel="stylesheet" type="text/css" href="css/register.css" />
 
 
   <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
@@ -14,10 +14,10 @@
       <nav>
         <!-- <input type="checkbox" id="nav" class="hidden"> -->
         <label for="nav" class="nav-btn">
+          <!-- <i></i>
           <i></i>
           <i></i>
-          <i></i>
-          <i></i>
+          <i></i> -->
         </label>
         <div class="logo">
           <a href= "index.php"><img class="heading" src="images/logo.png"></a>
@@ -35,40 +35,36 @@
       </nav>
     </header>
     </div>
-<!-- <link rel="stylesheet" type="text/css" href="css/register.css" />
-action='process-register.php' -->
-
+<!--contents  -->
 <div class="page-content">
-  <div id="banner-login">
-    <img src="images/bar1.png">
-    <div class="login">
-    <h2>Register</h2>
+<div class="wrapper">
+
+  <div class="imgdiv">
+    <img class="regimg" src="images/register_image.png">
+    <div class="alltext">
+      <h1 class="img_title">Register<h1>
+      <p class="img_text">create and account andd nsdfnsdjfoi</p>
+    </div>
   </div>
-</div>
 
 <form method='POST' action='process-register.php'>
   <div id="form">
-
-<div id="textboxes">
-      <div class="label" id ="left">
-        <label>Email:</label>
-        <input class="textbox" type='email' name="password" placeholder="example@example.com"/>
-
-      </div>
-      <div class="label">
-        <label>Password:</label>
-        <input class="textbox" type='password' name="password" placeholder="Your password"/>
-      </div>
-</div>
-    
-    <div id="btnalign">
-      <input id = "button" type='submit' text="log in">
+    <div id="textboxes">
+          <div class="label" id ="left">
+            <label>Email:</label>
+            <input class="textbox" type='email' name="password" placeholder="example@example.com"/>
+          </div>
+          <div class="label">
+            <label>Password:</label>
+            <input class="textbox" type='password' name="password" placeholder="Your password"/>
+          </div>
     </div>
-    </div>
+<input id ="createbtn" type='submit' value="Create">
 </form>
-
-
 </div>
+</div>
+</div>
+
     <!--Footer-->
         <footer class="footer">
           <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
@@ -88,7 +84,7 @@ action='process-register.php' -->
 
           </ul>
         </footer>
-      </div>
+
        <script></script>
        </body>
        </html>

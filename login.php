@@ -72,7 +72,7 @@
       </div> -->
 
     <div id="btnalign">
-      <input id = "button" type='submit' text="log in">
+      <input id = "button" type='submit' value="Login">
     </div>
     </div>
 </form>
