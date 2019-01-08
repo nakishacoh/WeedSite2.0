@@ -13,8 +13,8 @@ $idVal=1;
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" type="text/css" href="css/survey.css" />
+  <!-- <link rel="stylesheet" href="css/header.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/survey.css" /> -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
 </head>
 <body>
@@ -42,10 +42,10 @@ $idVal=1;
       </nav>
     </header>
     <!-- </div> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/survey.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/survey.css" />
   <!-- <img  id="image" src="images/sphoto.png"> -->
 <span id ="hide">
-      <form action="survey-processing.php" method="post" id="add">
+      <form  action="survey-processing.php" method="post" id="add">
 
 <?php
 while($row = $stmt->fetch()) {
@@ -189,6 +189,22 @@ if ($idVal == 1)
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
 </body>
-
-
 </html>
+<footer class="footer">
+  <p class="copy">Copyright © 2018 CLAN. All Rights Reserved.</p>
+  <ul class="social_icons">
+
+      <li class="social"> <a href="http://googleplus.com " target="_blank ">
+        <img class="iconimage" src="images/instagram.png "/></a>
+      </li>
+
+      <li class="social"> <a href="http://www.facebook.com " target="_blank ">
+        <img class="iconimage" src="images/facebook.png "/></a>
+      </li>
+
+      <li class="social"> <a href="http://www.twitter.com " target="_blank ">
+        <img class="iconimage" src="images/twitter.png"/></a>
+      </li>
+
+  </ul>
+</footer>
