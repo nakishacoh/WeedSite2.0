@@ -232,6 +232,9 @@ if ($idVal == 1)
 <i class="fa fa-github" style="font-size:48px;color:white"></i>
 <i class="fa fa-twitter" style="font-size:48px;color:white"></i>
 
+      <li class="social"> <a href="http://googleplus.com " target="_blank ">
+        <img class="iconimage" src="images/instagram.png "/></a>
+      </li>
 
 
 <!-- <a class="btn btn-social-icon btn-github">
