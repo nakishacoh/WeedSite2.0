@@ -10,11 +10,22 @@ img{
   /* height:auto; */
   /* bottom: 0; */
 }
+
+/*top image*/
 #top{
   position:relative;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   width: 100%;
+}
+.hp1{
+  position:absolute;
+  color:white;
+  top:30%;
+  left:6%;
+  font-size: 85px;
+  text-align: left;
+  /* width:100%; */
 }
 .surveybtn{
   position:absolute;
@@ -22,6 +33,33 @@ img{
   left:6%;
   bottom:30%;
 }
+@media only screen and (max-width : 480px) {
+     .hp1 {
+
+        font-size:24px;
+    }
+}
+/* @media only screen and (max-width: 480px)
+.hp1 {
+    font-size: 4px;
+} */
+/*-------------*/
+
+/*-----black text---*/
+.text_black{
+text-align: center;
+background-color: #1C1C1C;
+color:white;
+margin:0;
+}
+.text{
+  margin:0;
+  font-size: 35px;
+  padding:40px;
+}
+/*-----------------------/
+
+/*----middle image---- */
 #mid{
   position:relative;
   text-align: center;
@@ -34,6 +72,21 @@ img{
   left:42%;
   bottom:35%;
 }
+.hp2{
+  text-align: center;
+  color: white;
+  position:absolute;
+  font-size: 85px;
+  left:34%;
+  bottom:55%;
+}
+h1.hp2 {
+ border: 10px solid white;
+ padding:20px;
+}
+/*-----------------*/
+
+/*-----bottom image-------*/
 #last{
   position:relative;
   text-align: center;
@@ -46,7 +99,26 @@ img{
   left:44%;
   bottom:25%;
 }
+.hp3{
+  text-align: center;
+  color: white;
+  position:absolute;
+  font-size: 85px;
+  left:43.5%;
+  bottom:60%;
+  text-decoration: underline;
+}
+.hp3_2{
 
+  text-align: center;
+  color: white;
+  position:absolute;
+  font-size: 85px;
+  left:36.5%;
+  bottom:40%;
+
+}
+/*------------------------*/
 /*Footer*/
 footer {
  position: absolute;
