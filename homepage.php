@@ -63,7 +63,9 @@
    <!--Survey-->
 <div id="top">
  <!--  weed photo-->
-     <img src="images/image_1.png"/>
+
+    <h1 class="hp1"><b>Take or free survey <br> to discover a strain <br> most desirable for you</b></h1>
+     <img src="images/hp_1.png"/>
  <!--  weed photo end-->
 
        <!-- <div class="surveybtn"> -->
@@ -75,19 +77,28 @@
 
  <!--Site Explanation-->
 
-<div>
- <img src="images/image_4.png"/>
+<div class="text_black">
+ <!-- <img src="images/image_4.png"/> -->
+ <p class="text">We know searching for canniabis strains can get overwhelming<br>
+     with teh hundreds of varieties avaliable to purchase<br><br>
+     And since <b>time</b> and <b>money</b> is valuable<br><br>
+     We want your cannabis experience to be <b>safe</b> and<br>
+     <b>enjoyable</b>, so we created a questionaire to reveal strains<br>
+     best for recreation.</p>
 </div>
 
  <!--Cannibis Info -->
 <div id="mid">
-   <img src="images/image_2.png"/>
+  <h1 class="hp2">Discover cannibis <br> types and products</h1>
+   <img src="images/hp_2.png"/>
    <a class="learnB" href="#"><img src="buttons/learn_more.png">
    </a>
 </div>
  <!-- About Us -->
 <div id="last">
- <img src="images/image_3.png"/>
+  <h1 class="hp3">About us</h1>
+  <p class="hp3_2">Curious about who <br> we are?</p>
+ <img src="images/hp_3.png"/>
  <a class="checkus" href="aboutpage.php">
    <img src="buttons/check_us_out.png">
  </a>
