@@ -1,0 +1,4 @@
+[03-Jan-2019 00:03:13 America/Toronto] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home2/browne9/public_html/IMM-web-dev/test/WeedSite2.0/homepage.php on line 22
+[03-Jan-2019 00:03:13 America/Toronto] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/browne9/public_html/IMM-web-dev/test/WeedSite2.0/homepage.php on line 22
+[03-Jan-2019 00:03:13 America/Toronto] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home2/browne9/public_html/IMM-web-dev/test/WeedSite2.0/homepage.php on line 60
+[03-Jan-2019 00:03:13 America/Toronto] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/browne9/public_html/IMM-web-dev/test/WeedSite2.0/homepage.php on line 60
