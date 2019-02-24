@@ -82,6 +82,7 @@ $dsn = "mysql:host=localhost;dbname=browne9_Weedsite;charset=utf8mb4";
 
  <!--Image-->
 <div class="learnText">
+<<<<<<< HEAD
 
   <h1 align="center" class="learn_text"> Know about cannibis </h1>
     <img class="banner" src="images/learnmore_image.png"/>
@@ -118,6 +119,32 @@ $dsn = "mysql:host=localhost;dbname=browne9_Weedsite;charset=utf8mb4";
     <p>The Hyrid strain is a<br/> combination of indica and sativa plants.<br/> Leading the characteristics to be<br/> varied by percentage of sativa<br/> and indica genetics. </p>
     <button><a href="">Hybrid Strains</a></button>
   </div>
+=======
+  <h1 align="center"> Know about cannibis </h1>
+  <hr width="600" />
+  </div>
+  <p align="center"> Cannabis is now legal in Canada and we want<br/> you to know how to use and be safe.<br/> Find out more about the lagalities in Ontario,<br/> to know the restrictions. </p>
+  <button><a href="https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations.html">Learn more</a></button>
+
+
+
+<div class="contain">
+<!-- <img class="banner" src="images/bar1.png"/> -->
+<h1 class="centered"> Types of Strains</h1>
+</div><div id="redBack">
+  <!--Sativa-->
+  <h2 class="white">Sativa</h2>
+  <h2 class="white">Indica</h2>
+  <h2 class="white">Hybrid</h2>
+  <!-- <img src="images/Chocolope.png" width:"300" height="300"/> -->
+  <p> Cannabis Sativa plants grow tall <br/>and thin with narrow leaves. <br/> Sativa plants are also generally<br/> a lighter shade of green<br/> then their counterpart, the Indica<br/> strain. Sativa strains take longer<br/> to grow, mature, and require<br/> more light. Medicine produced from<br/> cannabis Sativa plants have lower<br/> CBD and higher THC counts.</p>
+  <p> Cannabis Indica plants are short,<br/> bushy plants with wide leaves.<br/> Indica plants typically grow faster<br/> and have a higher yield<br/> than the sativa variety. <br/>Medicine produced from cannabis Indica<br/> plants have higher CBD<br/> and lower THC counts.</p>
+  <p>The Hyrid strain is a<br/> combination of indica and sativa plants.<br/> Leading the characteristics to be<br/> varied by percentage of sativa<br/> and indica genetics. </p>
+
+  <button><a href="">Indica Strains</a></button>
+  <button><a href="#" id="satStrain">Sativa Strains</a></button>
+  <button><a href="">Hybrid Strains</a></button>
+>>>>>>> 3f6be05bf01a6aef58751f26fa20ac64897d7c8c
   <!--Sativa Popup-->
   <!-- <div class="modal">
     <div class="modalcontent">

@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 @media only screen and (min-width: 480px)
 {
+=======
+>>>>>>> 3f6be05bf01a6aef58751f26fa20ac64897d7c8c
 .navbar-collapse{
   padding:0.5rem 4rem 1.5rem;
 }
@@ -29,21 +32,32 @@ img{
   text-align: left;
   /* width:100%; */
 }
+<<<<<<< HEAD
 .hp_1{
   height:auto;
 }
+=======
+>>>>>>> 3f6be05bf01a6aef58751f26fa20ac64897d7c8c
 .surveybtn{
   position:absolute;
   width: 15%;
   left:6%;
   bottom:30%;
 }
+<<<<<<< HEAD
 /* @media only screen and (max-width : 480px) {
+=======
+@media only screen and (max-width : 480px) {
+>>>>>>> 3f6be05bf01a6aef58751f26fa20ac64897d7c8c
      .hp1 {
 
         font-size:24px;
     }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 3f6be05bf01a6aef58751f26fa20ac64897d7c8c
 /* @media only screen and (max-width: 480px)
 .hp1 {
     font-size: 4px;
@@ -114,6 +128,7 @@ h1.hp2 {
   text-decoration: underline;
 }
 .hp3_2{
+<<<<<<< HEAD
 
   text-align: center;
   color: white;
@@ -122,6 +137,16 @@ h1.hp2 {
   left:36.5%;
   bottom:40%;
 
+=======
+
+  text-align: center;
+  color: white;
+  position:absolute;
+  font-size: 85px;
+  left:36.5%;
+  bottom:40%;
+
+>>>>>>> 3f6be05bf01a6aef58751f26fa20ac64897d7c8c
 }
 /*------------------------*/
 /*Footer*/
@@ -213,7 +238,10 @@ nav ul li a{
   margin-left: 4.5rem;
   margin-top: 12px;
 }
+<<<<<<< HEAD
 .navbar{
   margin:0;
 }
 }
+=======
+>>>>>>> 3f6be05bf01a6aef58751f26fa20ac64897d7c8c
