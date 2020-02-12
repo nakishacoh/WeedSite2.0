@@ -1,0 +1,42 @@
+img{
+  width:100%;
+  margin:0;
+  height:auto;
+  bottom: 0;
+}
+#top{
+  position:relative;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.surveybtn{
+  position:absolute;
+  width: 15%;
+  left:6%;
+  bottom:30%;
+}
+#mid{
+  position:relative;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.learnB{
+  position:absolute;
+  width: 15%;
+  left:42%;
+  bottom:35%;
+}
+#last{
+  position:relative;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.checkus{
+  position:absolute;
+  width: 15%;
+  left:44%;
+  bottom:25%;
+}

@@ -1,0 +1,24 @@
+[27-Nov-2018 13:31:44 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'browne9_weedsite'@'localhost' (using password: YES)' in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php:6
+Stack trace:
+#0 /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php(6): PDO->__construct('mysql:host=loca...', 'browne9_weedsit...', 'XD85DWz6loe#')
+#1 {main}
+  thrown in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 6
+[27-Nov-2018 14:02:03 America/Toronto] PHP Fatal error:  Call to a member function fetch() on null in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 16
+[28-Nov-2018 11:24:32 America/Toronto] PHP Parse error:  syntax error, unexpected '=' in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 18
+[28-Nov-2018 11:24:34 America/Toronto] PHP Parse error:  syntax error, unexpected '=' in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 18
+[01-Dec-2018 17:22:01 America/Toronto] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 42
+[01-Dec-2018 17:27:08 America/Toronto] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 43
+[01-Dec-2018 17:28:47 America/Toronto] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 43
+[01-Dec-2018 17:56:45 America/Toronto] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 43
+[01-Dec-2018 17:57:16 America/Toronto] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 43
+[01-Dec-2018 17:58:39 America/Toronto] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey.php on line 55
+[06-Dec-2018 17:58:35 America/Toronto] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey-processing.php on line 3
+[06-Dec-2018 17:58:50 America/Toronto] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey-processing.php on line 3
+[06-Dec-2018 17:59:15 America/Toronto] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey-processing.php on line 3
+[06-Dec-2018 17:59:15 America/Toronto] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey-processing.php on line 3
+[07-Dec-2018 08:56:54 America/Toronto] PHP Warning:  Creating default object from empty value in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey-processing.php on line 10
+[10-Dec-2018 22:55:20 America/Toronto] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/login.php on line 29
+[10-Dec-2018 22:55:20 America/Toronto] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/login.php on line 29
+[10-Dec-2018 22:55:34 America/Toronto] PHP Fatal error:  Call to a member function execute() on null in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/process-register.php on line 17
+[12-Dec-2018 09:40:52 America/Toronto] PHP Parse error:  syntax error, unexpected '$do' (T_VARIABLE) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey-processing.php on line 85
+[12-Dec-2018 09:41:25 America/Toronto] PHP Parse error:  syntax error, unexpected '$do' (T_VARIABLE) in /home2/browne9/public_html/IMM-web-dev/WeedSite2.0/survey-processing.php on line 85

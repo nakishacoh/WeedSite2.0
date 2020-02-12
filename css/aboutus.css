@@ -1,0 +1,28 @@
+/* connected*/
+
+body{
+  margin:0;
+}
+.cont{
+  margin:0;
+  text-align: center;
+  width: 100%;
+}
+#mtt{
+  width:100%;
+  margin:0;
+}
+.angela{
+  position:absolute;
+  top:100px;
+}
+img{
+  margin:0;
+  width:100%;
+}
+
+.container-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
