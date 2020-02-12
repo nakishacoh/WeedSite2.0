@@ -1,2 +1,0 @@
-orange(left side) =  #FF6C45
-red (right side) = #E61D36
