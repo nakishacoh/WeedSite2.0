@@ -165,36 +165,34 @@ elseif ($idVal == 6)
 
 ?>
 
-    <span class="nextprev">
-      <button type="button" id="Prev">Prev</button>
-      <button type="button" id="Next">Next</button>
-      <!-- <img id="submitBtn" src="buttons/SPbuttons/tier1/submit.png"> -->
-    </span>
-  <input id="button" type="submit" >
+<span class="nextprev">
+  <!-- <img id="Prev" src="buttons/SPbuttons/tier1/back.png"> -->
+  <button type="button" id="Prev">Prev</button>
+  <button type="button" id="Next">Next</button>
+  <!-- <img id="Next"src="buttons/SPbuttons/tier1/next.png"> -->
+  <!-- <img id="submitBtn" src="buttons/SPbuttons/tier1/submit.png"> -->
+</span>
+<input id="button" type="submit" >
 </form>
 </span>
 <br><br>
-
-<!-- Results -->
 <section id="hope">
-  <img src="" id="imageMain"/>
-  <br>
-  <section id="results-right">
-  <span id="name"></span>
-  <br>
-  <span id=type></span>
-  <br>
-  <span id="goodeffects"></span>
-  <br>
-  <span id="badeffects"></span>
-  <br>
-  <span id="thc"></span>
-  <br>
-  <span id="cdb"></span>
-  <br>
+<img src="" id="imageMain"/>
+<br>
+<section id="results-right">
+<span id="name"></span>
+<br>
+<span id=type></span>
+<br>
+<span id="goodeffects"></span>
+<br>
+<span id="badeffects"></span>
+<br>
+<span id="thc"></span>
+<br>
+<span id="cdb"></span>
+<br>
 </section>
-
-<!-- Recommendation Section -->
 <section id="rec">
 <img src="" id="image1" class="inline"/>
 
@@ -210,12 +208,10 @@ elseif ($idVal == 6)
 
 <span id="recommend3"></span>
 
+</section>
 <a id="create" href="register.php">Create account</a>
 </section>
-
 <script src="js/survey.js" type="text/javascript"></script>
 <script src="js/ajax.js"></script>
-
 </body>
-
 </html>

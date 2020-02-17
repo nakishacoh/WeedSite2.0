@@ -1,0 +1,7 @@
+{
+    "synthwave84.brightness":"4",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.autoSave":"afterDelay",
+    "vscode_custom_css.imports": []
+    // "vscode_custom_css.policy": true
+}
